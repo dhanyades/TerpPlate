@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 
 #navigate to the menu
 url = 'https://nutrition.umd.edu/'
@@ -26,8 +27,9 @@ for station in stations.find_all('div', class_='card'):
        link = link_tag['href']   #LINK FOR EACH FOOD ITEM
        item_name = link_tag.text
        menu_items[item_name] = link #add to dictionary
-    
-print(menu_items)
+
+with open('food.txt', 'w') as file:
+    json.dump(menu_items, file, indent=4)
 
 
 
