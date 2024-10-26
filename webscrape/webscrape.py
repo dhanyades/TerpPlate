@@ -42,9 +42,6 @@ if response.status_code == 200:
                                     if key in nutrient_text:
                                         nutrient_value = nutrient_text.split('\xa0')[-1]
                                         nutrition_data[nutrients[key]] = nutrient_value
-           
-
-           
                 
             return nutrition_data  # Ensure you return the data
 
