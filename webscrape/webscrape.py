@@ -64,4 +64,3 @@ if response.status_code == 200:
     # Write to JSON file
     with open('food.txt', 'w') as file:
         json.dump(menu_items, file, indent=4)
-
