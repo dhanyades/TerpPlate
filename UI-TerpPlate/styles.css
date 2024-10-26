@@ -3,72 +3,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
-.top-section {
-    height: 50vh; /* Half the viewport height */
-    width: 100%; /* Ensure it spans the full width */
+.background {
+    position: relative;
+    height: 50vh; /* Covers half the viewport height */
     background-image: url('https://nutrition.umd.edu/img/cover.jpeg'); /* Replace with your image URL */
-    background-size: cover; /* Cover the whole top section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repetition */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* Text color for contrast against the background */
-    text-align: center; 
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    overflow: hidden;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #fff; /* Clean white background */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+.background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Dark to transparent fade */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 10%,rgba(0, 0, 0, 0.8) 20%,rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 70%); 
+    z-index: 1; /* Place it above the background but below the text */
 }
-
-/* Header styling */
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #d32f2f; /* Dark red for the title */
-    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    position: relative;
+    color: #ffdd00;
+    font-size: 4em;
+    margin-top: 30px; /* Add margin to move the h1 down */
+    margin-left: 40px;
+    z-index: 2; /* Place it above the gradient overlay */
 }
-
-h3 {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #d32f2f; /* Dark red for the title */
-    margin-bottom: 20px;
-}
-
-/* Home page section */
-.Home-Page {
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-    padding: 20px;
-}
-
-.about-text {
-    text-align: center;
-}
-
-.about-text img {
-    width: 400px; /* Set width for the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px;
-}
-
 .about-text p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 20px;
-    padding: 0 10px; /* Padding for better readability */
+    padding: 0 10px; 
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* Button container styling */
@@ -86,9 +60,11 @@ h3 {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    align-: center;
 }
 
 .button-container button:hover {
     background-color: #ebf800; /* Slightly darker yellow on hover */
     transform: scale(1.05); /* Slight scale effect on hover */
 }
+
