@@ -73,7 +73,7 @@ public class LangchainappApplication {
 		//SpringApplication.run(LangchainappApplication.class, args);
 
 		ChatLanguageModel model = OpenAiChatModel.builder()
-        .apiKey(System.getenv(OPEN_AI_API_KEY))
+        .apiKey(System.getenv("OPEN_AI_API_KEY"))
 		.modelName(GPT_4_O_MINI)
 		//.responseFormat("json_schema")
     	//.strictJsonSchema(true)
