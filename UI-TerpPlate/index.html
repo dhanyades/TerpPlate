@@ -26,6 +26,8 @@
             </div>
         </div>
         <!--End of About container-->
+
+
          <!--Button in homepage(START)-->
         <div class = "button-container">
             <button class="center-button" onclick="scrollToSection()" id="bottom-section">START</button>
@@ -33,7 +35,43 @@
         </section>
 
         <!--ADD GENERATE HERE-->
+        <section class="Second-Page">
+            <h2>Preferences</h2>
+            <div class="survey-container">
+                
+                <form action="/submit-survey" method="post">
+                    <label for="calories">Calories (kcal):</label>
+                    <input type="number" id="calories" name="calories" required>
+        
+                    <label for="sugar">Sugar (grams):</label>
+                    <input type="number" id="sugar" name="sugar" required>
+        
+                    <label for="sodium">Sodium (grams):</label>
+                    <input type="number" id="sodium" name="sodium" required>
+        
+                    <label for="protein">Protein (mg):</label>
+                    <input type="number" id="protein" name="protein" required>
+        
+                    <button type="submit">Generate</button>
+                </form>
+            </div>
+        </section>
 
+            <!--END OF LIYA-->
+
+        <!--ADD GENERATED OUTPUT HERE-->
+        <section class="Second-Page-Output">
+            <h2>Output</h2>
+            
+        </section>
+
+            
+
+
+
+
+
+<!--END OF OUTPUT-->
         <!--Section White-->
         <div class="secondground">
             <section class="Bottom">
@@ -51,5 +89,36 @@
 
             </section>
         </div>
+
+
+
+        <!--DHANYAAAAA Section fact-->
+        <div class="meal-container">
+            <h2>Fun Nutrition Facts</h2>
+            <h3>Generate a fun nutrition fact by clicking the button below!</h3>
+            <div class="button-container2">
+                <button onclick="displayRandomFact()">CLICK ME!</button>
+                <p id="factDisplay" style="color: white; padding-top: 20px; font-size: larger;"></p> <!-- Place to display the fact -->                
+            </div>
+            
+        </div>
+
+        <script>
+            facts = [
+                "Tomatoes are a fruit.",
+                "Apples give you more energy than coffee.",
+                "Avocados are loaded with more potassium than bananas.",
+                "Eating carrots can improve your vision at night.",
+                "Almonds are a member of the peach family.",
+                "Good nutrition can impact your mood and emotional wellness. ",
+                "Doctors and nutritionists recommend eggs as a vital part of a well-balanced diet.",
+                "One way to read a food label is to divide the number of calories by the grams of fiber."
+            ];
+        
+            function displayRandomFact() {
+                randomIndex = Math.floor(Math.random() * facts.length); // Get a random index
+                document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
+            }
+        </script>
 	</body>
 </html>
