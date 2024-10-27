@@ -94,7 +94,9 @@ public class AssistantImpl implements NutritionAssistant{
     
         "The daily dining hall menu is: " + menu
 
-        + "Please suggest a meal for today's menu. Additionally, please tell me the nutrition facts for each food in a strcutured way. Finally, tell me the total nutrition facts for the entire meal by adding up the numbers from every ingredient.";
+        + "Please suggest a meal for today's menu. Additionally, please tell me the nutrition facts for each food in a strcutured way. Finally, tell me the total nutrition facts for the entire meal by adding up the numbers from every ingredient."
+        
+        + "Please only output the meal and it's nutritional deals";
 
         //System.out.println(systemMessage);
 
