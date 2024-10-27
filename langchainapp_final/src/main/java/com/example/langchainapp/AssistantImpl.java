@@ -33,6 +33,13 @@ public class AssistantImpl implements NutritionAssistant{
 
     public NutritionAssistant assistant;
 
+    // Initialize per meal goals based on Average National Standards for an adult consuming around 2k calories every day
+    private String calorieGoal = "600";
+    private String sugarGoal = "600"; //milligrams
+    private String sodiumGoal = "8"; //grams
+    private String proteinGoal = "30"; //grams
+
+
     public AssistantImpl() {
         this.assistant = AiServices.builder(NutritionAssistant.class)
             .chatLanguageModel(
@@ -50,26 +57,25 @@ public class AssistantImpl implements NutritionAssistant{
         return document.toTextSegment().text();
     }
 
-    public String getMealGoals(String calories, String sugar, String sodium, String protein) {
-        // Document document = FileSystemDocumentLoader.loadDocument("....Preferred cals, etc", new TextDocumentParser());
+    public String setMealGoals(String calories, String sugar, String sodium, String protein) {
+        if (calories != null) {
+            this.calorieGoal = calories;
+        }
+        if (sugar != null) {
+            this.sugarGoal = sugar;
+        }
+        if (sodium != null) {
+            this.sodiumGoal = sodium;
+        }
+        if (protein != null) {
+            this.proteinGoal = protein;
+        }
 
-        // String[] parts = document.toTextSegment().text().split("\n");
-
-        // UserMessage userMessage = UserMessage.from(
-        //     TextContent.from("Meal Calorie Goal: " + parts[0] 
-        //                         + "Meal Sugar Goal: " + parts[1]
-        //                         + "Meal Sodium Goal: " + parts[2] 
-        //                         + "Meal Protein Goal: " + parts[3]));
-
-        String mealGoals = "Meal Calorie Goal: " + calories 
-                                + "\nMeal Sugar Goal: " + sugar
-                                + "\nMeal Sodium Goal: " + sodium
-                                + "\nMeal Protein Goal: " + protein;
-
-        // System.out.println("Calories: " + calories);
-        // System.out.println("Sugar: " + sugar);
-        // System.out.println("Sodium: " + sodium);
-        // System.out.println("Protein: " + protein);
+        // If meal goals are not null, then just use default values
+        String mealGoals = "Meal Calorie Goal: " + calorieGoal 
+                                + "\nMeal Sugar Goal: " + sugarGoal
+                                + "\nMeal Sodium Goal: " + sodiumGoal
+                                + "\nMeal Protein Goal: " + proteinGoal;
 
         System.out.println(mealGoals);
 
@@ -81,16 +87,23 @@ public class AssistantImpl implements NutritionAssistant{
 
         String systemMessage = "You are here to help college students eat healthy at the dining hall. I will provide you with the daily menu for the specific dining hall that the student is dining in, and you should generate a balanced meal based on the foods in the dining hall." + 
 
-        "Avg calorie count... " + 
+        "This student's Per Meal Nutritional Goals:\n Calorie Goal: "          + calorieGoal 
+            + "\nSugar Goal: " + sugarGoal
+            + "\nSodium Goal: " + sodiumGoal
+            + "\nProtein Goal: " + proteinGoal + 
     
         "The daily dining hall menu is: " + menu
 
         + "Please suggest a meal for today's menu. Additionally, please tell me the nutrition facts for each food in a strcutured way. Finally, tell me the total nutrition facts for the entire meal by adding up the numbers from every ingredient.";
 
-        System.out.println("THE MENU IS\n" + menu);
+        //System.out.println(systemMessage);
+
+        System.out.println("Model getting response");
         
         // Generate the response
         String response = assistant.chat(systemMessage);
+
+        System.out.println(response);
         return response;
     }
 
