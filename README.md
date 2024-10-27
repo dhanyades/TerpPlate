@@ -15,14 +15,13 @@ TerpPlate is designed to generate healthy meal ideas based on available dining h
 
 **How to Use TerpPlate**
 
-Set Your Nutrition Goals: 
-- Input your specific per-meal goals for calories, sugar, sodium, and protein, or let TerpPlate work with default values based on average national nutritional standards. If no values are entered, the model will use the following recommended defaults, which are aligned with an average 2,000-calorie daily intake:
+
+- Set Your Nutrition Goals: Input your specific per-meal goals for calories, sugar, sodium, and protein, or let TerpPlate work with default values based on average national nutritional standards. If no values are entered, the model will use the following recommended defaults, which are aligned with an average 2,000-calorie daily intake:
   - Calories: 600 cal
   - Sugar: 600 mg
   - Sodium: 8 g
   - Protein: 30 g
-Generate a Meal 
-- Click "Generate" to receive a balanced meal suggestion based on your input. TerpPlate will attempt to match your goals with dining hall menu items as closely as possible.
+- Generate a Meal: Click "Generate" to receive a balanced meal suggestion based on your input. TerpPlate will attempt to match your goals with dining hall menu items as closely as possible.
 
 **How we built it:**
 - Ingesting Food Information and Nutritional Data: We developed a Python web scraper to gather menu and nutritional data from UMD’s Dining Services website. This data is then organized into a structured format to feed into our AI model.
