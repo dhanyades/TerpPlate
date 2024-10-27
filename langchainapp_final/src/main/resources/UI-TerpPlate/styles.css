@@ -8,7 +8,7 @@
 
 
 .header-container {
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -17,7 +17,7 @@
     width: auto;  /* Maintains the aspect ratio of the image */
     margin-top: 5px;
     margin-right: 20px;  /* Optional: Adjusts space between the logo and the next element */
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(0,0,0);
     display: inline;
 }
 
@@ -168,94 +168,41 @@ h2 {
     /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  Subtle shadow */
 }
 
-
-/*DHANYYAAAAA changes start here till end*/
-.meal-container{
-    background-color: #000000;
-}
-
-.button-container2 button {
-    background-color: #ffffff;
-    padding: 12px 20px;
-    font-size: 1rem;
-    color: white;
-    background-color: rgb(0, 0, 0); /* Bright yellow for button */
-    border-color: gold;
-    border-radius: 3px solid #ffb700;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.button-container2 button:hover {
-    background-color: #f80000; 
-    border-color: red;
-    transform: scale(1.05); 
-}
-
-.button-container2 {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    background-color: #000000;
-}
-
-.meal-container h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffd34f;
-    background-color: #000000;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-
-
-}
-
-.meal-container h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically if needed */
-    height: 40px;
-    margin-left: 0px;
-    background-color: #000000;
-    flex-direction: column;
-
-}
-
-
 /*LIYAAAAAAAAAA*/
 .Second-Page {
-    background-color: white; /* Set the background color to gray */
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.9),  /* Start of gradient: black at 50% opacity */
+        rgba(0, 0, 0, 0.5)   /* End of gradient: black at 50% opacity */
+    ), url('https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202312/MIT_Food-Diabetes-01_0.jpg?itok=Mp8FVJkC');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /*background-color: white; */
     padding: 20px; /* Optional: Add padding to your section */
     color: white; /* Optional: Change text color for better contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Second-Page h2{
-<<<<<<< HEAD:UI-TerpPlate/styles.css
-    margin-left: 635px;
-    margin-left: 650px;
->>>>>>> d580a657d4ea701ac0bef5422925488e0b8118f6:langchainapp_final/src/main/resources/UI-TerpPlate/styles.css
-    margin-bottom: 10px;
+.Second-Page h2 {
+    margin: 0 auto;  /*Centers the heading horizontally */
     margin-top: 0px;
-    font-size: 2em;
-    color:#000000;
+    /*margin-left: 650px;*/
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: white;
     background-color: transparent;
+    text-align: center; /* Centers the text within the heading element */
 }
 
 .Second-Page h3{
-    background-color: white;
-    color:rgb(0, 0, 0);
+    margin: 0 auto;  /*Centers the heading horizontally */
+    color:white(0, 0, 0);
     font-size: smaller;
     display: flex;
-    margin-left: 530px;
+    background-color: transparent;
 }
 .survey-container label {
     display: block;
@@ -283,13 +230,17 @@ h2 {
     border-radius: 5px;
     background-color: rgb(246, 242, 242);
     font-size: 16px;
+    font-style: italic;
+    text-align: left;
 }
 .survey-container button {
+    margin: 0 auto;
     background-color: #ffffff;
     margin-top: 15px;
-    margin-left: 110px;
+    margin-left: 100px;
     padding: 12px 20px;
     font-size: 1rem;
+    text-align: center;
     color: white;
     background-color: rgb(0, 0, 0); /* Bright yellow for button */
     border-color: gold;
@@ -314,6 +265,7 @@ h2 {
     justify-content: center; /* Center vertically */
     background-color: #000000;
 }
+
 /*Output*/
 .second-page-output {
     display: flex;
@@ -351,24 +303,123 @@ h2 {
     color: #fffefe;
 }
 
-.thirdground {
-    max-height: 300px;
-    position: relative;
-    height: 100px;
-    background-color: white;
-    background-size: cover;
-    background-position: center;
+/*
+.bottom-output {
+    background: transparent;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
 
+.thirdground {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.last-section {
+    display: flex;
+    margin-top: 50px; 
+}
+    */
+
+
+
+
+
+
+
+.bottom-output {
+    background: white;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    padding: 20px; /* Add padding to the section */
 }
 
 .response-output {
     background-color: white; /* White background */
-    color: black; /* Black text */
+    color: rgb(0, 0, 0); /* Black text */
+    max-width: 700px; /* Maximum width */
     padding: 20px; /* Add some padding */
     border: 1px solid #ccc; /* Optional: border for better visibility */
     border-radius: 8px; /* Optional: rounded corners */
     text-align: center; /* Center text inside the box */
 }
+
+
+/*DHANYYAAAAA changes start here till end*/
+.last-section{
+    display:flex;
+    justify-content: center; 
+    margin-top:30px;
+}
+.meal-container{
+    background-color: #000000;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+.button-container2 button {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(0, 0, 0); 
+    border-color: gold;
+    border-radius: 3px solid #ffb700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-container2 button:hover {
+    background-color: #f80000; 
+    border-radius: 10%;
+    border-color: red;
+    transform: scale(1.05); 
+}
+
+.button-container2 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #000000;
+}
+
+.meal-container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffd34f;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+
+
+}
+
+.meal-container h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 40px;
+    margin-left: 0px;
+    background-color: #000000;
+    flex-direction: column;
+
+}
+
+
