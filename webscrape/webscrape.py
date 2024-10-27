@@ -54,10 +54,7 @@ if response.status_code == 200:
             if link_tag:  # Check if link_tag exists
                 item_name = link_tag.text
                 item_url = 'https://nutrition.umd.edu/' + link_tag['href']
-                print(item_name)
                 macros = parse_macros(item_url)
-                
-                print(macros)
                 if macros:  # Ensure macros are returned
                     menu_items[item_name] = macros  # Add to dictionary
 
