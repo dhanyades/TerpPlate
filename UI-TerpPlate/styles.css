@@ -31,7 +31,6 @@ h1 {
     color: #cf0808eb;
     font-size: 4em;
     margin-top: 60px;
-    margin-left: 70px;
     margin-left: 120px;
     z-index: 2; /* Place it above the gradient overlay */
 }
@@ -213,34 +212,35 @@ h2 {
 
 /*LIYAAAAAAAAAA*/
 .Second-Page {
-    background-color: transparent; /* Set the background color to gray */
+    background-color: white; /* Set the background color to gray */
     padding: 20px; /* Optional: Add padding to your section */
     color: white; /* Optional: Change text color for better contrast */
 }
-.survey-container input {
-    width: calc(100% - 12px);
-    padding: 5px;
-    display: flex;
-    margin-bottom: 5px;
-    border: 0px solid;
-    border-radius: 5px;
-    background-color: #939090; /* Change this line */
-    font-size: 16px;
-}
 
 .Second-Page h2{
-    justify-content: center;
-    text-align: center;
+    margin-left: 450px;
     margin-bottom: 10px;
     margin-top: 0px;
-    font-size: medium;
-    background-color: #939090;
+    font-size: 2em;
+    color:#000000;
+    background-color: transparent;
 }
 .survey-container label {
     display: block;
+    width: 347px;
     margin-top: 10px;
     color: white;
-    background-color: #939090;
+    background-color: #000000;
+}
+.survey-container {
+    max-width: 400px; /* Set a maximum width for the container */
+    width: 100%; /* Allow it to be responsive within the max width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent; /* Gray background */
+    text-align: left;
 }
 .survey-container input {
     width: calc(100% - 12px);
@@ -252,16 +252,32 @@ h2 {
     font-size: 16px;
 }
 .survey-container button {
+    background-color: #ffffff;
     margin-top: 15px;
-    margin-left:75px;
-    padding: 10px;
-    width: 35%;
-    background-color: #42974f;
+    margin-left: 110px;
+    padding: 12px 20px;
+    font-size: 1rem;
     color: white;
-    border: none;
-    border-radius: 5px;
-
+    background-color: rgb(0, 0, 0); /* Bright yellow for button */
+    border-color: gold;
+    border-radius: 3px solid #ffb700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 .survey-container button:hover {
-    background-color: #255827;
+    background-color: #f80000; 
+    border-color: red;
+    transform: scale(1.05); 
+}
+
+.survey-container {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background-color: #000000;
 }
