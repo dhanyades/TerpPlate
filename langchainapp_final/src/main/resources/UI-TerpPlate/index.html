@@ -40,15 +40,48 @@
                 <h2>Ask me questions about nutrition!</h2>
                 <input type="text" placeholder="Ex: How much protein is in..." class="input-textbox" id="meal-input">
                 <div class = "button-container">
-                    <button class="bottom-button" onclick="storeInput()" id="bottom-section">ENTER</button>
+                    <button class="bottom-button" onclick="storeChatMessage()" id="bottom-section">ENTER</button>
                 </div>
             </section>
-        </div>
+        </div>  
+
+        <script> 
+            // Function to store input and send it to the server
+            function storeChatMessage() {
+                const inputField = document.getElementById('meal-input');
+                const inputValue = inputField.value.trim();
+
+                if (inputValue) {
+                    // Send the input value to your Spring Boot application
+                    fetch('http://localhost:8080/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ chat: inputValue }), // Wrap it in an object if needed
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data.message)
+
+                        document.getElementById('response-output').innerText = data.model_response;
+                    })
+                    .catch(error => console.error('Error:', error));
+
+                    // Clear the input field after sending the value
+                    inputField.value = '';
+                } else {
+                    alert('Please enter a value!');
+                }
+            }
+        </script>
 
         <!--Section OUTPUT-->
         <div class="thirdground">
             <section class="bottom-output">
-
+                <div id="response-box" class="response-output">
+                    <p id="response-output" style="margin: 0;"></p> <!-- Inner p to display the response -->
+                </div>
             </section>
         </div>
 	</body>
