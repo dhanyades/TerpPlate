@@ -187,8 +187,9 @@ h2 {
 }
 
 .Second-Page h2 {
-    margin: 0 auto; /* Centers the heading horizontally */
-    margin-top: 30px;
+    margin: 0 auto;  /*Centers the heading horizontally */
+    margin-top: 0px;
+    /*margin-left: 650px;*/
     margin-bottom: 10px;
     font-size: 2.5em;
     color: white;
@@ -196,6 +197,13 @@ h2 {
     text-align: center; /* Centers the text within the heading element */
 }
 
+.Second-Page h3{
+    margin: 0 auto;  /*Centers the heading horizontally */
+    color:white(0, 0, 0);
+    font-size: smaller;
+    display: flex;
+    background-color: transparent;
+}
 .survey-container label {
     display: block;
     width: 347px;
@@ -215,6 +223,7 @@ h2 {
 
     text-align: left;
 }
+
 .survey-container input {
     width: calc(100% - 12px);
     padding: 5px;
