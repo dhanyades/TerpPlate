@@ -54,7 +54,7 @@
                     <label for="protein">Protein (mg):</label>
                     <input type="number" id="protein" name="protein" required>
                     
-                    <button type="submit">GENERATE</button>
+                    <button type="submit">GENERATE MEAL</button>
             
     
                 </form>
@@ -148,7 +148,7 @@
                     .then(data => {
                         console.log(data.message)
 
-                        document.getElementById('response-output').innerText = data.model_response;
+                        document.getElementById('response-box').innerText = data.model_response;
                     })
                     .catch(error => console.error('Error:', error));
 
@@ -161,43 +161,45 @@
         </script>
 
         <!--Section OUTPUT-->
-        <div class="thirdground">
+        
             <section class="bottom-output">
                 <div id="response-box" class="response-output">
                     <p id="response-output" style="margin: 0;"></p> <!-- Inner p to display the response -->
                 </div>
             </section>
-        </div>
 
-
-
-        <!--DHANYAAAAA Section fact-->
-        <div class="meal-container">
-            <h2>Fun Nutrition Facts</h2>
-            <h3>Generate a fun nutrition fact by clicking the button below!</h3>
-            <div class="button-container2">
-                <button onclick="displayRandomFact()">CLICK ME!</button>
-                <p id="factDisplay" style="color: white; padding-top: 20px; font-size: larger;"></p> <!-- Place to display the fact -->                
-            </div>
-            
-        </div>
-
-        <script>
-            facts = [
-                "Tomatoes are a fruit.",
-                "Apples give you more energy than coffee.",
-                "Avocados are loaded with more potassium than bananas.",
-                "Eating carrots can improve your vision at night.",
-                "Almonds are a member of the peach family.",
-                "Good nutrition can impact your mood and emotional wellness. ",
-                "Doctors and nutritionists recommend eggs as a vital part of a well-balanced diet.",
-                "One way to read a food label is to divide the number of calories by the grams of fiber."
-            ];
         
-            function displayRandomFact() {
-                randomIndex = Math.floor(Math.random() * facts.length); // Get a random index
-                document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
-            }
-        </script>
+        <!--DHANYAAAAA Section fact-->
+        <section class="last-section">
+            <div class="meal-container">
+                <h2>Fun Nutrition Facts</h2>
+                <h3>Generate a fun nutrition fact by clicking the button below!</h3>
+                <div class="button-container2">
+                    <button onclick="displayRandomFact()">CLICK ME!</button>
+                    <p id="factDisplay" style="color: white; padding-top: 20px; font-size: larger;"></p> <!-- Place to display the fact -->                
+                </div>
+                
+            </div>
+            </section>
+    
+            <script>
+                facts = [
+                    "Tomatoes are a fruit.",
+                    "Apples give you more energy than coffee.",
+                    "Avocados are loaded with more potassium than bananas.",
+                    "Eating carrots can improve your vision at night.",
+                    "Almonds are a member of the peach family.",
+                    "Good nutrition can impact your mood and emotional wellness. ",
+                    "Doctors and nutritionists recommend eggs as a vital part of a well-balanced diet.",
+                    "One way to read a food label is to divide the number of calories by the grams of fiber."
+                ];
+            
+                function displayRandomFact() {
+                    randomIndex = Math.floor(Math.random() * facts.length); // Get a random index
+                    document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
+                }
+            </script>
+    
+    
 	</body>
 </html>
