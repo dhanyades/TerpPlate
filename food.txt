@@ -1,0 +1,1658 @@
+{
+    "Cheeseburger with American Cheese": {
+        "Calories": "283",
+        "Sugar": "0g",
+        "Sodium": "445.9mg",
+        "Protein": "18.9g"
+    },
+    "Grilled Chicken Teryaki Thigh": {
+        "Calories": "133",
+        "Sugar": "0g",
+        "Sodium": "292.1mg",
+        "Protein": "20.2g"
+    },
+    "Grilled Hot Dog": {
+        "Calories": "168",
+        "Sugar": "g",
+        "Sodium": "826.2mg",
+        "Protein": "9.7g"
+    },
+    "BBQ Sauce": {
+        "Calories": "56",
+        "Sugar": "13.1g",
+        "Sodium": "364.7mg",
+        "Protein": "0g"
+    },
+    "Bacon Bits": {
+        "Calories": "127",
+        "Sugar": "0.5g",
+        "Sodium": "603.5mg",
+        "Protein": "12g"
+    },
+    "Banana Peppers": {
+        "Calories": "5",
+        "Sugar": "0g",
+        "Sodium": "378mg",
+        "Protein": "0g"
+    },
+    "Dijon Mustard": {
+        "Calories": "30",
+        "Sugar": "0g",
+        "Sodium": "711mg",
+        "Protein": "0g"
+    },
+    "Grilled Mushrooms": {
+        "Calories": "16",
+        "Sugar": "0g",
+        "Sodium": "10.1mg",
+        "Protein": "2g"
+    },
+    "Grilled Onions": {
+        "Calories": "13",
+        "Sugar": "1.1g",
+        "Sodium": "0.7mg",
+        "Protein": "0.3g"
+    },
+    "Grilled Peppers": {
+        "Calories": "8",
+        "Sugar": "0.8g",
+        "Sodium": "0mg",
+        "Protein": "0.2g"
+    },
+    "Guacamole": {
+        "Calories": "71",
+        "Sugar": "0g",
+        "Sodium": "170.1mg",
+        "Protein": "1.4g"
+    },
+    "Pico de Gallo": {
+        "Calories": "10",
+        "Sugar": "1g",
+        "Sodium": "195.5mg",
+        "Protein": "0g"
+    },
+    "Potato Hamburger Roll": {
+        "Calories": "123",
+        "Sugar": "1.9g",
+        "Sodium": "198.1mg",
+        "Protein": "3.8g"
+    },
+    "Potato Hot Dog Roll": {
+        "Calories": "140",
+        "Sugar": "4g",
+        "Sodium": "250mg",
+        "Protein": "4g"
+    },
+    "Seasoned Crinkle Cut Fries": {
+        "Calories": "70",
+        "Sugar": "0.1g",
+        "Sodium": "148.6mg",
+        "Protein": "0.9g"
+    },
+    "Shredded Lettuce": {
+        "Calories": "5",
+        "Sugar": "0g",
+        "Sodium": "2.3mg",
+        "Protein": "0.3g"
+    },
+    "Sliced Red Onion": {
+        "Calories": "11",
+        "Sugar": "1.2g",
+        "Sodium": "1.1mg",
+        "Protein": "0.3g"
+    },
+    "Sliced Tomatoes": {
+        "Calories": "7",
+        "Sugar": "1g",
+        "Sodium": "mg",
+        "Protein": "0.3g"
+    },
+    "Spicy Brown Mustard": {
+        "Calories": "148",
+        "Sugar": "2.1g",
+        "Sodium": "1.6mg",
+        "Protein": "7.9g"
+    },
+    "Cranberry Chicken Sausage Breakfast": {
+        "Calories": "53",
+        "Sugar": "2.1g",
+        "Sodium": "265.3mg",
+        "Protein": "7.4g"
+    },
+    "Pancakes Blueberry": {
+        "Calories": "90",
+        "Sugar": "3.5g",
+        "Sodium": "236.7mg",
+        "Protein": "1.6g"
+    },
+    "Pancakes Chocolate Chips": {
+        "Calories": "90",
+        "Sugar": "3.5g",
+        "Sodium": "236.7mg",
+        "Protein": "1.6g"
+    },
+    "Pancakes Plain": {
+        "Calories": "107",
+        "Sugar": "4.2g",
+        "Sodium": "284mg",
+        "Protein": "1.9g"
+    },
+    "Apple Filling": {
+        "Calories": "27",
+        "Sugar": "5.7g",
+        "Sodium": "16.7mg",
+        "Protein": "0g"
+    },
+    "Breakfast Potatoes w/ Peppers & Onions": {
+        "Calories": "69",
+        "Sugar": "1.8g",
+        "Sodium": "5.3mg",
+        "Protein": "1.8g"
+    },
+    "Butter": {
+        "Calories": "203",
+        "Sugar": "0g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Maple Syrup": {
+        "Calories": "58",
+        "Sugar": "14.4g",
+        "Sodium": "66.4mg",
+        "Protein": "0g"
+    },
+    "Margarine": {
+        "Calories": "203",
+        "Sugar": "0g",
+        "Sodium": "212.6mg",
+        "Protein": "0g"
+    },
+    "Garlic Herb Chicken": {
+        "Calories": "288",
+        "Sugar": "0.1g",
+        "Sodium": "126.1mg",
+        "Protein": "23.6g"
+    },
+    "Assorted Mini Rolls": {
+        "Calories": "91",
+        "Sugar": "0.3g",
+        "Sodium": "300.2mg",
+        "Protein": "4.7g"
+    },
+    "Bread Stuffing": {
+        "Calories": "164",
+        "Sugar": "1.8g",
+        "Sodium": "495.8mg",
+        "Protein": "3.5g"
+    },
+    "Chef's Fresh Mashed Potatoes": {
+        "Calories": "207",
+        "Sugar": "0.5g",
+        "Sodium": "18.9mg",
+        "Protein": "4.5g"
+    },
+    "Chicken Gravy": {
+        "Calories": "12",
+        "Sugar": "0.2g",
+        "Sodium": "19.9mg",
+        "Protein": "0.3g"
+    },
+    "Collard Green with Smoked Turkey": {
+        "Calories": "51",
+        "Sugar": "1.7g",
+        "Sodium": "45.9mg",
+        "Protein": "5.7g"
+    },
+    "Fresh Roasted Carrots": {
+        "Calories": "10",
+        "Sugar": "0g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Fresh Steamed Broccoli": {
+        "Calories": "9",
+        "Sugar": "0.4g",
+        "Sodium": "9.1mg",
+        "Protein": "1.1g"
+    },
+    "Fresh Steamed Green Beans": {
+        "Calories": "21",
+        "Sugar": "1.1g",
+        "Sodium": "25.6mg",
+        "Protein": "1.1g"
+    },
+    "Grandma's Baked Macaroni and Cheese": {
+        "Calories": "358",
+        "Sugar": "3.6g",
+        "Sodium": "279.4mg",
+        "Protein": "15.6g"
+    },
+    "Green Peas and Pearl Onions": {
+        "Calories": "77",
+        "Sugar": "5.4g",
+        "Sodium": "538.7mg",
+        "Protein": "4.1g"
+    },
+    "Jerk Roasted Sweet Potatoes": {
+        "Calories": "70",
+        "Sugar": "3.1g",
+        "Sodium": "58mg",
+        "Protein": "1.4g"
+    },
+    "Roasted Brussels Sprouts Butternut Squash and Feta Cheese": {
+        "Calories": "88",
+        "Sugar": "6.8g",
+        "Sodium": "179.6mg",
+        "Protein": "2.8g"
+    },
+    "Sweet Corn Pudding": {
+        "Calories": "180",
+        "Sugar": "4.4g",
+        "Sodium": "151.4mg",
+        "Protein": "6.8g"
+    },
+    "Scrambled Cheesy Cheddar Egg": {
+        "Calories": "215",
+        "Sugar": "1.2g",
+        "Sodium": "198.3mg",
+        "Protein": "16.4g"
+    },
+    "Scrambled Eggs": {
+        "Calories": "192",
+        "Sugar": "1.2g",
+        "Sodium": "161.3mg",
+        "Protein": "15g"
+    },
+    "Vegan Chicken Slider": {
+        "Calories": "219",
+        "Sugar": "0g",
+        "Sodium": "399.5mg",
+        "Protein": "16.8g"
+    },
+    "Vegan Waffle French Toast": {
+        "Calories": "808",
+        "Sugar": "24g",
+        "Sodium": "1804.7mg",
+        "Protein": "21.8g"
+    },
+    "American Cheese Sliced": {
+        "Calories": "56",
+        "Sugar": "0g",
+        "Sodium": "182.3mg",
+        "Protein": "3g"
+    },
+    "Cheddar Cheese Sliced": {
+        "Calories": "54",
+        "Sugar": "0g",
+        "Sodium": "94.5mg",
+        "Protein": "3.4g"
+    },
+    "Cheddar Green Chili Roasted Potatoes": {
+        "Calories": "110",
+        "Sugar": "1.3g",
+        "Sodium": "135.8mg",
+        "Protein": "1.7g"
+    },
+    "Cinnamon Apple French Toast Casserole": {
+        "Calories": "244",
+        "Sugar": "14.3g",
+        "Sodium": "595.7mg",
+        "Protein": "10.2g"
+    },
+    "Grilled English Muffin": {
+        "Calories": "136",
+        "Sugar": "1g",
+        "Sodium": "198.9mg",
+        "Protein": "4g"
+    },
+    "Hard Boiled Egg (Breakfast)": {
+        "Calories": "79",
+        "Sugar": "0g",
+        "Sodium": "79.4mg",
+        "Protein": "6.8g"
+    },
+    "Over Hard Fried Eggs": {
+        "Calories": "90",
+        "Sugar": "0g",
+        "Sodium": "79.4mg",
+        "Protein": "6.8g"
+    },
+    "Scrambled Egg Whites": {
+        "Calories": "72",
+        "Sugar": "1.1g",
+        "Sodium": "192.8mg",
+        "Protein": "12.5g"
+    },
+    "Southwestern Vegetable Hash": {
+        "Calories": "333",
+        "Sugar": "13.8g",
+        "Sodium": "779.4mg",
+        "Protein": "13.9g"
+    },
+    "Vegan Cream Cheese": {
+        "Calories": "76",
+        "Sugar": "0g",
+        "Sodium": "113.4mg",
+        "Protein": "0g"
+    },
+    "Vegan Sour Cream": {
+        "Calories": "40",
+        "Sugar": "g",
+        "Sodium": "30mg",
+        "Protein": "1g"
+    },
+    "Warm  Cinnamon Berry Quinoa": {
+        "Calories": "127",
+        "Sugar": "8.2g",
+        "Sodium": "10.2mg",
+        "Protein": "2.6g"
+    },
+    "Diced Green Peppers": {
+        "Calories": "6",
+        "Sugar": "0.8g",
+        "Sodium": "0mg",
+        "Protein": "0.2g"
+    },
+    "Diced Ham": {
+        "Calories": "51",
+        "Sugar": "0.3g",
+        "Sodium": "303.8mg",
+        "Protein": "3.4g"
+    },
+    "Diced Onions": {
+        "Calories": "11",
+        "Sugar": "1.2g",
+        "Sodium": "1.1mg",
+        "Protein": "0.3g"
+    },
+    "Egg Whites": {
+        "Calories": "57",
+        "Sugar": "1.1g",
+        "Sodium": "192.8mg",
+        "Protein": "12.5g"
+    },
+    "Liquid Eggs (Omelet Station)": {
+        "Calories": "170",
+        "Sugar": "1.1g",
+        "Sodium": "158.8mg",
+        "Protein": "14.7g"
+    },
+    "Shredded Cheddar Cheese": {
+        "Calories": "111",
+        "Sugar": "0g",
+        "Sodium": "182.3mg",
+        "Protein": "7.1g"
+    },
+    "Sliced Mushroom": {
+        "Calories": "7",
+        "Sugar": "0g",
+        "Sodium": "5.1mg",
+        "Protein": "1g"
+    },
+    "Spinach": {
+        "Calories": "13",
+        "Sugar": "0.2g",
+        "Sodium": "44.8mg",
+        "Protein": "1.6g"
+    },
+    "Tomatoes Diced": {
+        "Calories": "5",
+        "Sugar": "0.7g",
+        "Sodium": "mg",
+        "Protein": "0.2g"
+    },
+    "Pan Buffalo Shrimp Pizza": {
+        "Calories": "206",
+        "Sugar": "1.3g",
+        "Sodium": "421.3mg",
+        "Protein": "16.7g"
+    },
+    "Pan Cheddar Hot Dog Pizza": {
+        "Calories": "208",
+        "Sugar": "1.1g",
+        "Sodium": "389.9mg",
+        "Protein": "14.4g"
+    },
+    "Pan Cheese Pizza": {
+        "Calories": "170",
+        "Sugar": "1.1g",
+        "Sodium": "329.1mg",
+        "Protein": "12.1g"
+    },
+    "Pan Italian Sausage Pizza": {
+        "Calories": "193",
+        "Sugar": "1.1g",
+        "Sodium": "403.4mg",
+        "Protein": "12.9g"
+    },
+    "Pan Pepperoni Pizza": {
+        "Calories": "300",
+        "Sugar": "1.7g",
+        "Sodium": "642.2mg",
+        "Protein": "19.7g"
+    },
+    "Pan Vegetable Pizza": {
+        "Calories": "174",
+        "Sugar": "1.4g",
+        "Sodium": "330.1mg",
+        "Protein": "12.3g"
+    },
+    "Balsamic Dressing": {
+        "Calories": "57",
+        "Sugar": "3.8g",
+        "Sodium": "179.5mg",
+        "Protein": "0g"
+    },
+    "Black Beans": {
+        "Calories": "28",
+        "Sugar": "0.2g",
+        "Sodium": "85.1mg",
+        "Protein": "1.4g"
+    },
+    "Blue Cheese Dressing": {
+        "Calories": "151",
+        "Sugar": "0.9g",
+        "Sodium": "236.2mg",
+        "Protein": "0.9g"
+    },
+    "Blueberry Yogurt": {
+        "Calories": "68",
+        "Sugar": "11.3g",
+        "Sodium": "37.6mg",
+        "Protein": "2.3g"
+    },
+    "Caesar Dressing": {
+        "Calories": "120",
+        "Sugar": "0g",
+        "Sodium": "320mg",
+        "Protein": "1g"
+    },
+    "Cantaloupe": {
+        "Calories": "21",
+        "Sugar": "4.7g",
+        "Sodium": "8.5mg",
+        "Protein": "0.4g"
+    },
+    "Cereal Granola": {
+        "Calories": "155",
+        "Sugar": "10.9g",
+        "Sodium": "65.9mg",
+        "Protein": "3.1g"
+    },
+    "Chicken Congee": {
+        "Calories": "215",
+        "Sugar": "3g",
+        "Sodium": "615.3mg",
+        "Protein": "8.6g"
+    },
+    "Chipotle Hummus": {
+        "Calories": "71",
+        "Sugar": "0g",
+        "Sodium": "131.6mg",
+        "Protein": "2g"
+    },
+    "Chopped Green Onions": {
+        "Calories": "9",
+        "Sugar": "0.6g",
+        "Sodium": "4.6mg",
+        "Protein": "0.6g"
+    },
+    "Chopped Kale": {
+        "Calories": "29",
+        "Sugar": "1.5g",
+        "Sodium": "23.7mg",
+        "Protein": "2.9g"
+    },
+    "Chopped Lettuce": {
+        "Calories": "7",
+        "Sugar": "1.3g",
+        "Sodium": "6.7mg",
+        "Protein": "0.7g"
+    },
+    "Chopped Romaine": {
+        "Calories": "10",
+        "Sugar": "0.7g",
+        "Sodium": "4.5mg",
+        "Protein": "0.7g"
+    },
+    "Cottage Cheese": {
+        "Calories": "60",
+        "Sugar": "3g",
+        "Sodium": "240.8mg",
+        "Protein": "8.3g"
+    },
+    "Crouton": {
+        "Calories": "61",
+        "Sugar": "0g",
+        "Sodium": "162mg",
+        "Protein": "2g"
+    },
+    "Cubed Bread": {
+        "Calories": "71",
+        "Sugar": "0.5g",
+        "Sodium": "172mg",
+        "Protein": "2.5g"
+    },
+    "Cucumber": {
+        "Calories": "2",
+        "Sugar": "0.2g",
+        "Sodium": "0mg",
+        "Protein": "0.2g"
+    },
+    "Diced Green Pepper": {
+        "Calories": "6",
+        "Sugar": "0.8g",
+        "Sodium": "0mg",
+        "Protein": "0.2g"
+    },
+    "Eggs": {
+        "Calories": "48",
+        "Sugar": "0.6g",
+        "Sodium": "42mg",
+        "Protein": "4.2g"
+    },
+    "FF Italian": {
+        "Calories": "10",
+        "Sugar": "2g",
+        "Sodium": "490mg",
+        "Protein": "0g"
+    },
+    "French Dressing": {
+        "Calories": "120",
+        "Sugar": "4g",
+        "Sodium": "250mg",
+        "Protein": "0g"
+    },
+    "Fresh Blueberry": {
+        "Calories": "52",
+        "Sugar": "5.8g",
+        "Sodium": "0mg",
+        "Protein": "0.6g"
+    },
+    "Fresh Strawberry": {
+        "Calories": "9",
+        "Sugar": "2.8g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Fried Shallot": {
+        "Calories": "18",
+        "Sugar": "0.8g",
+        "Sodium": "3mg",
+        "Protein": "0.6g"
+    },
+    "Grapefruit Half": {
+        "Calories": "37",
+        "Sugar": "g",
+        "Sodium": "0mg",
+        "Protein": "0.7g"
+    },
+    "Grapes": {
+        "Calories": "39",
+        "Sugar": "9.1g",
+        "Sodium": "3.9mg",
+        "Protein": "0.2g"
+    },
+    "Greek Dressing": {
+        "Calories": "90",
+        "Sugar": "1g",
+        "Sodium": "260mg",
+        "Protein": "1g"
+    },
+    "Greek Pita Flat Bread": {
+        "Calories": "247",
+        "Sugar": "2.1g",
+        "Sodium": "442.1mg",
+        "Protein": "8.2g"
+    },
+    "Grits": {
+        "Calories": "60",
+        "Sugar": "0g",
+        "Sodium": "1.4mg",
+        "Protein": "1.4g"
+    },
+    "Ham Sliced": {
+        "Calories": "152",
+        "Sugar": "1g",
+        "Sodium": "911.3mg",
+        "Protein": "10.1g"
+    },
+    "Italian Creamy": {
+        "Calories": "110",
+        "Sugar": "5g",
+        "Sodium": "260mg",
+        "Protein": "0g"
+    },
+    "Italian Hummus": {
+        "Calories": "42",
+        "Sugar": "0.3g",
+        "Sodium": "54.7mg",
+        "Protein": "1.2g"
+    },
+    "Kimchi": {
+        "Calories": "17",
+        "Sugar": "1.6g",
+        "Sodium": "70.6mg",
+        "Protein": "0.5g"
+    },
+    "Lite Caesar Dressing": {
+        "Calories": "66",
+        "Sugar": "1.9g",
+        "Sodium": "529.2mg",
+        "Protein": "0.9g"
+    },
+    "Lite Ranch Dressing": {
+        "Calories": "76",
+        "Sugar": "0.9g",
+        "Sodium": "236.2mg",
+        "Protein": "0.9g"
+    },
+    "Lite Soy Sauce": {
+        "Calories": "20",
+        "Sugar": "0g",
+        "Sodium": "1135.6mg",
+        "Protein": "2g"
+    },
+    "Oatmeal": {
+        "Calories": "340",
+        "Sugar": "2.3g",
+        "Sodium": "3.6mg",
+        "Protein": "11.3g"
+    },
+    "Olive Oil": {
+        "Calories": "251",
+        "Sugar": "0g",
+        "Sodium": "0.6mg",
+        "Protein": "0g"
+    },
+    "Parmesan Cheese": {
+        "Calories": "101",
+        "Sugar": "1g",
+        "Sodium": "435.4mg",
+        "Protein": "9.1g"
+    },
+    "Parmesan Peppercorn Dressing": {
+        "Calories": "160",
+        "Sugar": "1g",
+        "Sodium": "290mg",
+        "Protein": "1g"
+    },
+    "Peaches in syrup": {
+        "Calories": "31",
+        "Sugar": "7.5g",
+        "Sodium": "2.8mg",
+        "Protein": "0.3g"
+    },
+    "Pears in syrup": {
+        "Calories": "28",
+        "Sugar": "5.5g",
+        "Sodium": "2.3mg",
+        "Protein": "0.2g"
+    },
+    "Pineapple": {
+        "Calories": "40",
+        "Sugar": "7.4g",
+        "Sodium": "0.9mg",
+        "Protein": "0.5g"
+    },
+    "Ranch Dressing": {
+        "Calories": "140",
+        "Sugar": "1g",
+        "Sodium": "190mg",
+        "Protein": "0g"
+    },
+    "Raspberry Vinaigrette Lite": {
+        "Calories": "66",
+        "Sugar": "2.8g",
+        "Sodium": "118.1mg",
+        "Protein": "0g"
+    },
+    "Red Pepper": {
+        "Calories": "3",
+        "Sugar": "0.3g",
+        "Sodium": "0.5mg",
+        "Protein": "0.1g"
+    },
+    "Red Wine Vinegar": {
+        "Calories": "0",
+        "Sugar": "0g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Roasted Corn": {
+        "Calories": "43",
+        "Sugar": "2.1g",
+        "Sodium": "0.2mg",
+        "Protein": "1.3g"
+    },
+    "Sesame Oriental Dressing": {
+        "Calories": "90",
+        "Sugar": "9g",
+        "Sodium": "320mg",
+        "Protein": "0g"
+    },
+    "Sliced Lemons": {
+        "Calories": "3",
+        "Sugar": "0.5g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Special K Berry": {
+        "Calories": "402",
+        "Sugar": "32.9g",
+        "Sodium": "695mg",
+        "Protein": "7.3g"
+    },
+    "Strawberry Yogurt": {
+        "Calories": "67",
+        "Sugar": "10.9g",
+        "Sodium": "39.3mg",
+        "Protein": "2.2g"
+    },
+    "TOFU": {
+        "Calories": "81",
+        "Sugar": "0g",
+        "Sodium": "3.1mg",
+        "Protein": "9.3g"
+    },
+    "Thousand Island Dressing": {
+        "Calories": "140",
+        "Sugar": "3g",
+        "Sodium": "260mg",
+        "Protein": "0g"
+    },
+    "Tomato Wedges": {
+        "Calories": "0",
+        "Sugar": "0g",
+        "Sodium": "2.3mg",
+        "Protein": "0g"
+    },
+    "Turkey Sliced": {
+        "Calories": "76",
+        "Sugar": "0g",
+        "Sodium": "683.4mg",
+        "Protein": "13.7g"
+    },
+    "Yogurt Plain": {
+        "Calories": "77",
+        "Sugar": "12g",
+        "Sodium": "54.1mg",
+        "Protein": "3.1g"
+    },
+    "Apple": {
+        "Calories": "74",
+        "Sugar": "14.3g",
+        "Sodium": "0mg",
+        "Protein": "0.6g"
+    },
+    "Banana": {
+        "Calories": "110",
+        "Sugar": "15.1g",
+        "Sodium": "1.2mg",
+        "Protein": "1.3g"
+    },
+    "Caramel Sauce": {
+        "Calories": "105",
+        "Sugar": "10.5g",
+        "Sodium": "37.6mg",
+        "Protein": "0.8g"
+    },
+    "Cherry Sorbet Soft Serve": {
+        "Calories": "27",
+        "Sugar": "5.9g",
+        "Sodium": "1.7mg",
+        "Protein": "0g"
+    },
+    "Chocolate Chip Cookie": {
+        "Calories": "188",
+        "Sugar": "15.8g",
+        "Sodium": "257.1mg",
+        "Protein": "2g"
+    },
+    "Chocolate Soft Serve Ice Cream": {
+        "Calories": "35",
+        "Sugar": "7g",
+        "Sodium": "29.7mg",
+        "Protein": "0.3g"
+    },
+    "Dole Mango Sorbet Soft Serve": {
+        "Calories": "41",
+        "Sugar": "2.4g",
+        "Sodium": "113.1mg",
+        "Protein": "0.3g"
+    },
+    "Dole Pinapple Sorbet Soft Serve": {
+        "Calories": "27",
+        "Sugar": "6.1g",
+        "Sodium": "4.1mg",
+        "Protein": "0g"
+    },
+    "Dole Raspberry Sorbet Soft Serve": {
+        "Calories": "27",
+        "Sugar": "6.1g",
+        "Sodium": "3.4mg",
+        "Protein": "0g"
+    },
+    "Hot Fudge Sauce": {
+        "Calories": "92",
+        "Sugar": "10g",
+        "Sodium": "61.3mg",
+        "Protein": "0.8g"
+    },
+    "Kale Banana Peach Smoothie": {
+        "Calories": "57",
+        "Sugar": "8g",
+        "Sodium": "8.7mg",
+        "Protein": "1.5g"
+    },
+    "Mini Cinnamon Bun": {
+        "Calories": "193",
+        "Sugar": "9.1g",
+        "Sodium": "208.7mg",
+        "Protein": "3.4g"
+    },
+    "Mini Croissant": {
+        "Calories": "123",
+        "Sugar": "1.2g",
+        "Sodium": "135.5mg",
+        "Protein": "2.5g"
+    },
+    "Oatmeal Raisin Cookie": {
+        "Calories": "178",
+        "Sugar": "13.8g",
+        "Sodium": "98.9mg",
+        "Protein": "3g"
+    },
+    "Orange": {
+        "Calories": "104",
+        "Sugar": "18.2g",
+        "Sodium": "0mg",
+        "Protein": "1.3g"
+    },
+    "Pineapple Blueberry Yogurt Smoothie": {
+        "Calories": "82",
+        "Sugar": "14.3g",
+        "Sodium": "30mg",
+        "Protein": "2.1g"
+    },
+    "Salted Caramel Soft Serve Ice Cream": {
+        "Calories": "34",
+        "Sugar": "5.2g",
+        "Sodium": "70.4mg",
+        "Protein": "0g"
+    },
+    "Sugar Cookie": {
+        "Calories": "180",
+        "Sugar": "13g",
+        "Sodium": "240.1mg",
+        "Protein": "2g"
+    },
+    "Vanilla Soft Serve Ice Cream": {
+        "Calories": "93",
+        "Sugar": "10.1g",
+        "Sodium": "43.1mg",
+        "Protein": "1.4g"
+    },
+    "Warm Brownie Cheesecake": {
+        "Calories": "220",
+        "Sugar": "1.7g",
+        "Sodium": "122.2mg",
+        "Protein": "3.2g"
+    },
+    "Warm Brownie": {
+        "Calories": "236",
+        "Sugar": "2g",
+        "Sodium": "123.4mg",
+        "Protein": "2.1g"
+    },
+    "White Chocolate Macadamia Nut Cookie": {
+        "Calories": "200",
+        "Sugar": "15g",
+        "Sodium": "150mg",
+        "Protein": "2g"
+    },
+    "Bagels": {
+        "Calories": "295",
+        "Sugar": "5g",
+        "Sodium": "376.6mg",
+        "Protein": "10g"
+    },
+    "Chocolate Milk": {
+        "Calories": "188",
+        "Sugar": "21.6g",
+        "Sodium": "136.1mg",
+        "Protein": "7.2g"
+    },
+    "Chocolate Pea Milk": {
+        "Calories": "132",
+        "Sugar": "12.3g",
+        "Sodium": "132.3mg",
+        "Protein": "7.6g"
+    },
+    "Cream Cheese Onion and Chive": {
+        "Calories": "93",
+        "Sugar": "1.2g",
+        "Sodium": "85.8mg",
+        "Protein": "8.2g"
+    },
+    "Donuts": {
+        "Calories": "160",
+        "Sugar": "4g",
+        "Sodium": "160.9mg",
+        "Protein": "1.9g"
+    },
+    "Milk 2%": {
+        "Calories": "113",
+        "Sugar": "10.6g",
+        "Sodium": "93mg",
+        "Protein": "7.5g"
+    },
+    "Oatmilk": {
+        "Calories": "123",
+        "Sugar": "5.7g",
+        "Sodium": "37.8mg",
+        "Protein": "1.9g"
+    },
+    "Plain Cream Cheese": {
+        "Calories": "101",
+        "Sugar": "1g",
+        "Sodium": "96.2mg",
+        "Protein": "9.1g"
+    },
+    "Skim Milk": {
+        "Calories": "76",
+        "Sugar": "10.4g",
+        "Sodium": "113.4mg",
+        "Protein": "7.6g"
+    },
+    "Strawberry Cream Cheese": {
+        "Calories": "100",
+        "Sugar": "4.3g",
+        "Sodium": "78.5mg",
+        "Protein": "7.3g"
+    },
+    "Strawberry Topping": {
+        "Calories": "94",
+        "Sugar": "17.3g",
+        "Sodium": "7.9mg",
+        "Protein": "0g"
+    },
+    "Vanilla Soy Milk": {
+        "Calories": "94",
+        "Sugar": "6.6g",
+        "Sodium": "99.2mg",
+        "Protein": "7.6g"
+    },
+    "Waffle": {
+        "Calories": "785",
+        "Sugar": "8.9g",
+        "Sodium": "1342.3mg",
+        "Protein": "16.1g"
+    },
+    "Whipped Cream": {
+        "Calories": "35",
+        "Sugar": "2.4g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Chicken Noodle Soup": {
+        "Calories": "201",
+        "Sugar": "7.7g",
+        "Sodium": "1604.6mg",
+        "Protein": "10.8g"
+    },
+    "Cream of Tomato Soup": {
+        "Calories": "187",
+        "Sugar": "11.5g",
+        "Sodium": "1123.2mg",
+        "Protein": "2.9g"
+    },
+    "Loaded Potato Soup": {
+        "Calories": "202",
+        "Sugar": "5g",
+        "Sodium": "1046.9mg",
+        "Protein": "3.8g"
+    },
+    "Red Lentil Farro Chili": {
+        "Calories": "134",
+        "Sugar": "3.5g",
+        "Sodium": "190.4mg",
+        "Protein": "6.3g"
+    },
+    "Buffalo Chicken, Grilled Onion, Tomato & Provolone Sandwich": {
+        "Calories": "700",
+        "Sugar": "8.7g",
+        "Sodium": "2085.8mg",
+        "Protein": "44.3g"
+    },
+    "Maple Roasted Butternut Red Onion Provolone Sandwhich": {
+        "Calories": "1286",
+        "Sugar": "23.9g",
+        "Sodium": "2115.6mg",
+        "Protein": "47.9g"
+    },
+    "Carrot Sticks": {
+        "Calories": "12",
+        "Sugar": "1.7g",
+        "Sodium": "21.7mg",
+        "Protein": "0.3g"
+    },
+    "Celery Sticks": {
+        "Calories": "4",
+        "Sugar": "0.5g",
+        "Sodium": "29.6mg",
+        "Protein": "0g"
+    },
+    "Chicken Salad": {
+        "Calories": "194",
+        "Sugar": "3.2g",
+        "Sodium": "469.8mg",
+        "Protein": "7.3g"
+    },
+    "Chipotle Mayonnaise": {
+        "Calories": "182",
+        "Sugar": "0g",
+        "Sodium": "273.4mg",
+        "Protein": "0g"
+    },
+    "Deli Wheat Bread Sliced": {
+        "Calories": "232",
+        "Sugar": "4.6g",
+        "Sodium": "417.2mg",
+        "Protein": "9.3g"
+    },
+    "Jalapenos": {
+        "Calories": "0",
+        "Sugar": "0g",
+        "Sodium": "9.4mg",
+        "Protein": "0.1g"
+    },
+    "Leaf Lettuce": {
+        "Calories": "68",
+        "Sugar": "3.5g",
+        "Sodium": "127mg",
+        "Protein": "6.4g"
+    },
+    "Mayonnaise": {
+        "Calories": "76",
+        "Sugar": "0g",
+        "Sodium": "179.5mg",
+        "Protein": "0g"
+    },
+    "Multi-grain Bread": {
+        "Calories": "113",
+        "Sugar": "1.7g",
+        "Sodium": "182.8mg",
+        "Protein": "4g"
+    },
+    "Pepperoni Sliced": {
+        "Calories": "1",
+        "Sugar": "0g",
+        "Sodium": "1.9mg",
+        "Protein": "0g"
+    },
+    "Pickle Slice": {
+        "Calories": "5",
+        "Sugar": "g",
+        "Sodium": "335.6mg",
+        "Protein": "0g"
+    },
+    "Plain Tortilla 12\"": {
+        "Calories": "313",
+        "Sugar": "1g",
+        "Sodium": "676.4mg",
+        "Protein": "9.1g"
+    },
+    "Potato Chips": {
+        "Calories": "324",
+        "Sugar": "2g",
+        "Sodium": "344.3mg",
+        "Protein": "4.1g"
+    },
+    "Provolone Cheese Sliced": {
+        "Calories": "76",
+        "Sugar": "0g",
+        "Sodium": "182.3mg",
+        "Protein": "5.3g"
+    },
+    "Pullman White Bread Sliced": {
+        "Calories": "213",
+        "Sugar": "2.1g",
+        "Sodium": "447.3mg",
+        "Protein": "6.4g"
+    },
+    "Rye Bread": {
+        "Calories": "235",
+        "Sugar": "3.5g",
+        "Sodium": "598.3mg",
+        "Protein": "7.7g"
+    },
+    "Salami Sliced": {
+        "Calories": "111",
+        "Sugar": "0g",
+        "Sodium": "465.8mg",
+        "Protein": "6.1g"
+    },
+    "Sliced Black Olives": {
+        "Calories": "26",
+        "Sugar": "0g",
+        "Sodium": "204.1mg",
+        "Protein": "0g"
+    },
+    "Sourdough Bread": {
+        "Calories": "227",
+        "Sugar": "1.6g",
+        "Sodium": "550.4mg",
+        "Protein": "8.1g"
+    },
+    "Spinach Tortilla 12\"": {
+        "Calories": "298",
+        "Sugar": "0g",
+        "Sodium": "711.5mg",
+        "Protein": "8.7g"
+    },
+    "Swiss Cheese Sliced": {
+        "Calories": "51",
+        "Sugar": "0g",
+        "Sodium": "30.4mg",
+        "Protein": "4.1g"
+    },
+    "Tomato Tortilla 12\"": {
+        "Calories": "299",
+        "Sugar": "3.5g",
+        "Sodium": "678.4mg",
+        "Protein": "8.2g"
+    },
+    "Tuna Salad": {
+        "Calories": "255",
+        "Sugar": "0.9g",
+        "Sodium": "620.9mg",
+        "Protein": "7.7g"
+    },
+    "Wheat Tortilla 12\"": {
+        "Calories": "279",
+        "Sugar": "0g",
+        "Sodium": "721.2mg",
+        "Protein": "8.7g"
+    },
+    "Yellow Mustard": {
+        "Calories": "28",
+        "Sugar": "0g",
+        "Sodium": "340.2mg",
+        "Protein": "0g"
+    },
+    "Bacon": {
+        "Calories": "242",
+        "Sugar": "0g",
+        "Sodium": "997.9mg",
+        "Protein": "15.1g"
+    },
+    "Cheese Bacon Breakfast Bagel Sandwich": {
+        "Calories": "1244",
+        "Sugar": "16.9g",
+        "Sodium": "3566.6mg",
+        "Protein": "34.7g"
+    },
+    "Green Chili Roasted Red Pepper  Chicken (purple)": {
+        "Calories": "162",
+        "Sugar": "1.3g",
+        "Sodium": "186.3mg",
+        "Protein": "18.2g"
+    },
+    "Vegan Chocolate Chip Pancake (purple)": {
+        "Calories": "156",
+        "Sugar": "8.1g",
+        "Sodium": "366.2mg",
+        "Protein": "1.7g"
+    },
+    "Annie's Balsamic Vinaigrette (purple)": {
+        "Calories": "24",
+        "Sugar": "0.2g",
+        "Sodium": "14.7mg",
+        "Protein": "0g"
+    },
+    "Annie's French Dressing (purple)": {
+        "Calories": "21",
+        "Sugar": "0.7g",
+        "Sodium": "38.9mg",
+        "Protein": "0g"
+    },
+    "Annie's Lite Raspberry Vinaigrette (purple)": {
+        "Calories": "26",
+        "Sugar": "0.5g",
+        "Sodium": "52mg",
+        "Protein": "0g"
+    },
+    "Beef Bolognese Sauce": {
+        "Calories": "63",
+        "Sugar": "1.4g",
+        "Sodium": "277.5mg",
+        "Protein": "3.4g"
+    },
+    "Earth Balance Soy Free Spread": {
+        "Calories": "203",
+        "Sugar": "0g",
+        "Sodium": "222.8mg",
+        "Protein": "0g"
+    },
+    "Gingered Peaches": {
+        "Calories": "53",
+        "Sugar": "12.3g",
+        "Sodium": "18.3mg",
+        "Protein": "0.3g"
+    },
+    "Millet & Chia Burger Buns": {
+        "Calories": "1055",
+        "Sugar": "3.8g",
+        "Sodium": "1055.3mg",
+        "Protein": "7.5g"
+    },
+    "Mixed Greens": {
+        "Calories": "30",
+        "Sugar": "0g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Pancake Syrup": {
+        "Calories": "0",
+        "Sugar": "16.8g",
+        "Sodium": "39.5mg",
+        "Protein": "0g"
+    },
+    "Red Lentil Penne Pasta": {
+        "Calories": "170",
+        "Sugar": "0.7g",
+        "Sodium": "204.8mg",
+        "Protein": "9.6g"
+    },
+    "Shredded Carrots": {
+        "Calories": "12",
+        "Sugar": "1.3g",
+        "Sodium": "19.6mg",
+        "Protein": "0.3g"
+    },
+    "Sliced Roma Tomatoes": {
+        "Calories": "5",
+        "Sugar": "0.8g",
+        "Sodium": "1.4mg",
+        "Protein": "0.3g"
+    },
+    "Sliced White Bread": {
+        "Calories": "155",
+        "Sugar": "4.6g",
+        "Sodium": "2mg",
+        "Protein": "0.9g"
+    },
+    "Vegan Parmesan Cheese (purple)": {
+        "Calories": "101",
+        "Sugar": "0g",
+        "Sodium": "465.8mg",
+        "Protein": "0g"
+    },
+    "Vegan Shredded Cheddar Cheese": {
+        "Calories": "81",
+        "Sugar": "0g",
+        "Sodium": "293.6mg",
+        "Protein": "0g"
+    },
+    "Vegan Shredded Pepper Jack Cheese": {
+        "Calories": "85",
+        "Sugar": "0g",
+        "Sodium": "255.2mg",
+        "Protein": "0g"
+    },
+    "Vegan Sliced Gouda Cheese": {
+        "Calories": "85",
+        "Sugar": "0g",
+        "Sodium": "255.2mg",
+        "Protein": "0g"
+    },
+    "Vegan Sliced Provolone Cheese": {
+        "Calories": "60",
+        "Sugar": "0g",
+        "Sodium": "178.6mg",
+        "Protein": "0g"
+    },
+    "Vegan Soy Free Mayonnaise (purple)": {
+        "Calories": "324",
+        "Sugar": "0g",
+        "Sodium": "303.8mg",
+        "Protein": "0g"
+    },
+    "Breaded Chicken Cutlet": {
+        "Calories": "259",
+        "Sugar": "0g",
+        "Sodium": "473.1mg",
+        "Protein": "19.8g"
+    },
+    "Mushroom Carmelized Onion Quesadilla": {
+        "Calories": "609",
+        "Sugar": "2.9g",
+        "Sodium": "1632.7mg",
+        "Protein": "12.7g"
+    },
+    "Spicy Hunan Steamed Tofu": {
+        "Calories": "102",
+        "Sugar": "0.3g",
+        "Sodium": "243.5mg",
+        "Protein": "10.7g"
+    },
+    "Vegan Kung Pao Tofu": {
+        "Calories": "118",
+        "Sugar": "2.3g",
+        "Sodium": "91.8mg",
+        "Protein": "10.5g"
+    },
+    "Balsamic Garlic Roasted Brussel Sprouts": {
+        "Calories": "49",
+        "Sugar": "2.2g",
+        "Sodium": "56.9mg",
+        "Protein": "3g"
+    },
+    "Basil & Pepper Gourmet Beans": {
+        "Calories": "151",
+        "Sugar": "2g",
+        "Sodium": "54mg",
+        "Protein": "7.4g"
+    },
+    "Bean Sprouts": {
+        "Calories": "2",
+        "Sugar": "0g",
+        "Sodium": "0.6mg",
+        "Protein": "0.1g"
+    },
+    "Broccoli": {
+        "Calories": "8",
+        "Sugar": "0.3g",
+        "Sodium": "7.6mg",
+        "Protein": "0.9g"
+    },
+    "Brown Rice": {
+        "Calories": "101",
+        "Sugar": "0g",
+        "Sodium": "2.2mg",
+        "Protein": "2g"
+    },
+    "Cran Raisin": {
+        "Calories": "123",
+        "Sugar": "27.4g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "Edamame": {
+        "Calories": "40",
+        "Sugar": "1g",
+        "Sodium": "5mg",
+        "Protein": "3.7g"
+    },
+    "Fresh Vegan Basil Cheddar Mashed Potatoes": {
+        "Calories": "120",
+        "Sugar": "0.5g",
+        "Sodium": "116.4mg",
+        "Protein": "1.9g"
+    },
+    "Garbanzo Beans": {
+        "Calories": "66",
+        "Sugar": "2g",
+        "Sodium": "4.4mg",
+        "Protein": "3.4g"
+    },
+    "Green Chili Garlic Tomato Lentils": {
+        "Calories": "107",
+        "Sugar": "1.1g",
+        "Sodium": "57.5mg",
+        "Protein": "7.8g"
+    },
+    "Italian Herb Crushed Red Pepper Broccoli": {
+        "Calories": "67",
+        "Sugar": "0.9g",
+        "Sodium": "70.8mg",
+        "Protein": "2.5g"
+    },
+    "Pumpkin Seeds": {
+        "Calories": "152",
+        "Sugar": "0g",
+        "Sodium": "1.6mg",
+        "Protein": "8.1g"
+    },
+    "Red Beans": {
+        "Calories": "50",
+        "Sugar": "0.5g",
+        "Sodium": "135.1mg",
+        "Protein": "3g"
+    },
+    "Sliced Jalapeno Peppers": {
+        "Calories": "4",
+        "Sugar": "0g",
+        "Sodium": "105.8mg",
+        "Protein": "0.8g"
+    },
+    "Sticky Rice": {
+        "Calories": "113",
+        "Sugar": "0g",
+        "Sodium": "1.6mg",
+        "Protein": "2.1g"
+    },
+    "Vegan Chipotle Mayonnaise": {
+        "Calories": "96",
+        "Sugar": "0g",
+        "Sodium": "169.5mg",
+        "Protein": "0g"
+    },
+    "Vegan Hummus": {
+        "Calories": "67",
+        "Sugar": "0.4g",
+        "Sodium": "79.4mg",
+        "Protein": "2.5g"
+    },
+    "Vegan Mayonnaise": {
+        "Calories": "101",
+        "Sugar": "0g",
+        "Sodium": "172.1mg",
+        "Protein": "0g"
+    },
+    "Vegan Cheesecake New York": {
+        "Calories": "43",
+        "Sugar": "2.1g",
+        "Sodium": "0mg",
+        "Protein": "0.4g"
+    },
+    "Vegan Key Lime Cheesecake": {
+        "Calories": "179",
+        "Sugar": "8.6g",
+        "Sodium": "1.5mg",
+        "Protein": "1.1g"
+    },
+    "Vegan Strawberry Cheesecake": {
+        "Calories": "179",
+        "Sugar": "8.6g",
+        "Sodium": "1.5mg",
+        "Protein": "1.1g"
+    },
+    "Blistered Shishito Pepperes": {
+        "Calories": "24",
+        "Sugar": "1g",
+        "Sodium": "21mg",
+        "Protein": "0.7g"
+    },
+    "Broccoli with Garlic Sauce": {
+        "Calories": "52",
+        "Sugar": "2.8g",
+        "Sodium": "146.9mg",
+        "Protein": "2.7g"
+    },
+    "Chow Mein Noodles": {
+        "Calories": "132",
+        "Sugar": "0g",
+        "Sodium": "263.3mg",
+        "Protein": "3g"
+    },
+    "Crispy Chili Oil": {
+        "Calories": "314",
+        "Sugar": "0.7g",
+        "Sodium": "173.2mg",
+        "Protein": "0.5g"
+    },
+    "Crispy Scallions": {
+        "Calories": "9",
+        "Sugar": "0.6g",
+        "Sodium": "67mg",
+        "Protein": "0.6g"
+    },
+    "Fried Wonton Strips": {
+        "Calories": "82",
+        "Sugar": "0g",
+        "Sodium": "162.1mg",
+        "Protein": "2.7g"
+    },
+    "Jajangmyeon Korean Black Bean Noodles": {
+        "Calories": "190",
+        "Sugar": "3.8g",
+        "Sodium": "985.9mg",
+        "Protein": "12.1g"
+    },
+    "Korean BBQ Chicken": {
+        "Calories": "225",
+        "Sugar": "8.3g",
+        "Sodium": "690mg",
+        "Protein": "19g"
+    },
+    "Steamed Edamame Pods": {
+        "Calories": "2",
+        "Sugar": "0.2g",
+        "Sodium": "48.1mg",
+        "Protein": "0g"
+    },
+    "Szechuan Green Beans": {
+        "Calories": "53",
+        "Sugar": "3.6g",
+        "Sodium": "640.4mg",
+        "Protein": "1.6g"
+    },
+    "Szechuan Napa Cabbage and Carrots": {
+        "Calories": "51",
+        "Sugar": "4.7g",
+        "Sodium": "557.7mg",
+        "Protein": "1.3g"
+    },
+    "Thai Coconut Jasmine Rice": {
+        "Calories": "219",
+        "Sugar": "0.6g",
+        "Sodium": "68.4mg",
+        "Protein": "3.1g"
+    },
+    "Asian Beef Mongolian Grill": {
+        "Calories": "243",
+        "Sugar": "0g",
+        "Sodium": "57.8mg",
+        "Protein": "22.7g"
+    },
+    "Asian Chicken Mongolian Grill": {
+        "Calories": "125",
+        "Sugar": "0g",
+        "Sodium": "74mg",
+        "Protein": "26.3g"
+    },
+    "Asian Shrimp Mongolian Grill": {
+        "Calories": "83",
+        "Sugar": "0g",
+        "Sodium": "188mg",
+        "Protein": "17.5g"
+    },
+    "Baby Corn": {
+        "Calories": "23",
+        "Sugar": "1g",
+        "Sodium": "60.7mg",
+        "Protein": "0.7g"
+    },
+    "Chopped Basil": {
+        "Calories": "7",
+        "Sugar": "0g",
+        "Sodium": "1mg",
+        "Protein": "1g"
+    },
+    "Chopped Cilantro": {
+        "Calories": "1",
+        "Sugar": "0g",
+        "Sodium": "0.7mg",
+        "Protein": "0g"
+    },
+    "Chopped Garlic": {
+        "Calories": "42",
+        "Sugar": "0.3g",
+        "Sodium": "4.8mg",
+        "Protein": "1.8g"
+    },
+    "Chopped Ginger": {
+        "Calories": "0",
+        "Sugar": "0g",
+        "Sodium": "0mg",
+        "Protein": "0g"
+    },
+    "General Tso's Sauce": {
+        "Calories": "56",
+        "Sugar": "0g",
+        "Sodium": "416.4mg",
+        "Protein": "0.8g"
+    },
+    "Green Beans": {
+        "Calories": "7",
+        "Sugar": "0.4g",
+        "Sodium": "1.8mg",
+        "Protein": "0.4g"
+    },
+    "Orange Sauce": {
+        "Calories": "91",
+        "Sugar": "g",
+        "Sodium": "681.4mg",
+        "Protein": "0.9g"
+    },
+    "Sauce Plum (RTU)": {
+        "Calories": "75",
+        "Sugar": "17.3g",
+        "Sodium": "391.3mg",
+        "Protein": "0g"
+    },
+    "Shredded Cabbage": {
+        "Calories": "7",
+        "Sugar": "1g",
+        "Sodium": "5.1mg",
+        "Protein": "0.4g"
+    },
+    "Stir Fry Sauce (RTU)": {
+        "Calories": "32",
+        "Sugar": "1.9g",
+        "Sodium": "407.3mg",
+        "Protein": "0.9g"
+    },
+    "Sugar Snap Peas": {
+        "Calories": "16",
+        "Sugar": "1.6g",
+        "Sodium": "29.6mg",
+        "Protein": "0.9g"
+    },
+    "Sweet Sour Sauce (RTU)": {
+        "Calories": "71",
+        "Sugar": "12.4g",
+        "Sodium": "212.6mg",
+        "Protein": "0g"
+    },
+    "Teriyaki Sauce": {
+        "Calories": "39",
+        "Sugar": "6g",
+        "Sodium": "283.5mg",
+        "Protein": "0.9g"
+    },
+    "Water Chestnuts": {
+        "Calories": "9",
+        "Sugar": "0.4g",
+        "Sodium": "1.5mg",
+        "Protein": "0.2g"
+    },
+    "White Rice": {
+        "Calories": "103",
+        "Sugar": "0g",
+        "Sodium": "2mg",
+        "Protein": "2.4g"
+    }
+}
