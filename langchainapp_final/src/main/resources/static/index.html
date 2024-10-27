@@ -23,8 +23,18 @@
         }
     </script> -->
 
+    <input type="text" id="userCalories" placeholder="Enter your input" />
+    <input type="text" id="userProtein" placeholder="Enter your input" />
+
+    <button onclick="triggerFirstEvent()">Send to First Endpoint</button>
+
+
+
     <button id="generateMealButton">Generate Meal</button>
     <div id="mealSuggestion"></div> <!-- This is where the meal will be displayed -->
+
+    <!-- <button id="enterText">Enter Text</button>
+    <div id="modelOutput"></div> This is where the meal will be displayed -->
 
     <script>
         document.getElementById('generateMealButton').addEventListener('click', function() {
@@ -43,7 +53,103 @@
                 console.error('Error:', error);
             });
         });
+
+        // document.getElementById('enterText').addEventListener('click', function() {
+        //     fetch('http://localhost:8080/trigger', {
+        //         method: 'POST',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         }
+        //     })
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         // Update the HTML to display the meal suggestion
+        //         document.getElementById('modelOutput').innerText = data.model_response;
+        //     })
+        //     .catch(error => {
+        //         console.error('Error:', error);
+        //     });
+        // });
+
+        // Function to store input and send it to the server
+        function storeInput() {
+            const inputField = document.getElementById('meal-input');
+            const inputValue = inputField.value.trim();
+
+            if (inputValue) {
+                // Send the input value to your Spring Boot application
+                fetch('http://localhost:8080/mealGoals', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ mealGoals: inputValue }), // Wrap it in an object if needed
+                })
+                .then(response => response.json())
+                .then(data => console.log(data.message))
+                .catch(error => console.error('Error:', error));
+
+                // Clear the input field after sending the value
+                inputField.value = '';
+            } else {
+                alert('Please enter a value!');
+            }
+        }
+
+        // Function to store input and send it to the server
+        function storeChatMessage() {
+            const inputField = document.getElementById('chat-box');
+            const inputValue = inputField.value.trim();
+
+            if (inputValue) {
+                // Send the input value to your Spring Boot application
+                fetch('http://localhost:8080/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ chat: inputValue }), // Wrap it in an object if needed
+                })
+                .then(response => response.json())
+                .then(data => console.log(data.message))
+                .catch(error => console.error('Error:', error));
+
+                // Clear the input field after sending the value
+                inputField.value = '';
+            } else {
+                alert('Please enter a value!');
+            }
+        }
+
+
+        // function triggerFirstEvent() {
+        //     const userCalories = document.getElementById("userCalories").value;
+        //     const userProtein = document.getElementById("userProtein").value;
+
+        //     fetch("http://localhost:8080/trigger", {
+        //         method: "POST",
+        //         headers: {
+        //             "Content-Type": "application/json"
+        //         },
+        //         body: JSON.stringify({ input: userInput })
+        //     })
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         console.log("Response from first endpoint:", data);
+        //         alert("Server says: " + data.message + "\nGenerated meal: " + data.meal);
+        //     })
+        //     .catch(error => console.error("Error:", error));
+        // }
+
     </script>
+
+    <h1>Chat Box</h1>
+    <input type="text" id="chat-box" placeholder="Input your chat message" />
+    <button onclick="storeChatMessage()">Submit Your</button>
+
+    <h1>Nutrition Goals</h1>
+    <input type="text" id="meal-input" placeholder="Enter your meal goals" />
+    <button onclick="storeInput()">Submit Meal Goals</button>
 </head>
 <body>
     <h1>Trigger Java Event</h1>
