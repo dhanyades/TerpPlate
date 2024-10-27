@@ -170,7 +170,15 @@ h2 {
 
 /*LIYAAAAAAAAAA*/
 .Second-Page {
-    background-color: white; /* Set the background color to gray */
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.9),  /* Start of gradient: black at 50% opacity */
+        rgba(0, 0, 0, 0.5)   /* End of gradient: black at 50% opacity */
+    ), url('https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202312/MIT_Food-Diabetes-01_0.jpg?itok=Mp8FVJkC');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /*background-color: white; */
     padding: 20px; /* Optional: Add padding to your section */
     color: white; /* Optional: Change text color for better contrast */
     display: flex;
@@ -180,9 +188,10 @@ h2 {
 
 .Second-Page h2 {
     margin: 0 auto; /* Centers the heading horizontally */
+    margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 2em;
-    color: #000000;
+    font-size: 2.5em;
+    color: white;
     background-color: transparent;
     text-align: center; /* Centers the text within the heading element */
 }
@@ -214,6 +223,7 @@ h2 {
     border-radius: 5px;
     background-color: rgb(246, 242, 242);
     font-size: 16px;
+    font-style: italic;
     text-align: left;
 }
 .survey-container button {

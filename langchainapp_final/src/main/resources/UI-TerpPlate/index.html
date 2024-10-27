@@ -43,16 +43,16 @@
             <div class="survey-container">
                 <form id="preferences-form" onsubmit="submitSurvey(event)">
                     <label for="calories">Calories (kcal):</label>
-                    <input type="number" id="calories" name="calories" required>
+                    <input type="number" placeholder="Default: 600 cals" id="calories" name="calories" required>
         
-                    <label for="sugar">Sugar (grams):</label>
-                    <input type="number" id="sugar" name="sugar" required>
+                    <label for="sugar">Sugar (milligrams):</label>
+                    <input type="number" placeholder="Default: 600 mg" id="sugar" name="sugar" required>
         
                     <label for="sodium">Sodium (grams):</label>
-                    <input type="number" id="sodium" name="sodium" required>
+                    <input type="number" placeholder="Default: 8 g" id="sodium" name="sodium" required>
         
-                    <label for="protein">Protein (mg):</label>
-                    <input type="number" id="protein" name="protein" required>
+                    <label for="protein">Protein (grams):</label>
+                    <input type="number" placeholder="Default: 30 g" id="protein" name="protein" required>
                     
                     <button type="submit">GENERATE MEAL</button>
             
@@ -65,7 +65,6 @@
 
         <!--ADD GENERATED OUTPUT HERE-->
         <section class="second-page-output">
-            <h3>Output</h3>
             <div id="meal-generate-box">
                 <p id="second-page-output"></p> <!-- Inner p to display the response -->
             </div>
