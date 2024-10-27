@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import dev.langchain4j.*;
 
 import dev.langchain4j.data.message.AiMessage;
+import dev.langchain4j.data.message.*;
 import dev.langchain4j.data.message.ImageContent;
 import dev.langchain4j.data.message.TextContent;
 import dev.langchain4j.model.StreamingResponseHandler;
@@ -35,6 +36,19 @@ import java.io.*;
 
 
 
+interface Assistant {
+
+	String generateMeal();
+
+	@SystemMessage("You are here to help college students eat healthy at the dining hall. You will be provided with the dining hall menu, so you know all the nutrition facts of different foods, and students can ask you questions about different foods and their nutritional value")
+	String chat(String userMessage);
+
+	// On the home page: 
+	// Ask me questions about nutrition, eating healthy, or anything on the dining hall menu!
+	// Example questions: 
+	// How much protein is in one piece of bacon at the dining hall? 
+	// If I eat one serving of peas, and one serving of mashed potatoes, is that a balanced meal?
+}
 
 @SpringBootApplication
 public class LangchainappApplication {
@@ -43,35 +57,14 @@ public class LangchainappApplication {
 	// 	String generate(String userMessage);	
 	// }
 
-
-	public String loadMenu() {
-		return "hi";
-	}
-
-
-	interface Assistant {
-
-		@SystemMessage("You are here to help college students eat healthy at the dining hall. I will provide you with the daily menu for the specific dining hall that the student is dining in, and you should generate a balanced meal based on the foods in the dining hall." + 
-		
-		"  Avg calorie count... " + 
-
-		" The daily dining hall menu is: "
-		)
-		String generateMeal();
-
-		@SystemMessage("You are here to help college students eat healthy at the dining hall. You will be provided with the dining hall menu, so you know all the nutrition facts of different foods, and students can ask you questions about different foods and their nutritional value")
-		String chat(String userMessage);
-
-		// On the home page: 
-		// Ask me questions about nutrition, eating healthy, or anything on the dining hall menu!
-		// Example questions: 
-		// How much protein is in one piece of bacon at the dining hall? 
-		// If I eat one serving of peas, and one serving of mashed potatoes, is that a balanced meal?
-	}
-
 	public static void main(String[] args) {
-		//SpringApplication.run(LangchainappApplication.class, args);
+		SpringApplication.run(LangchainappApplication.class, args);
 
+		System.out.println("testing is working");
+		
+    }
+
+	public void createModel() {
 		ChatLanguageModel model = OpenAiChatModel.builder()
         .apiKey(System.getenv("OPEN_AI_API_KEY"))
 		.modelName(GPT_4_O_MINI)
@@ -118,6 +111,49 @@ public class LangchainappApplication {
         }
 		*/
 
-    }
+	}
 
+	public static class AssistantImpl implements Assistant {
+    
+		private final ChatLanguageModel model;
+	
+		public AssistantImpl() {
+			this.model = OpenAiChatModel.builder()
+					.apiKey(System.getenv("OPEN_AI_API_KEY"))
+					.modelName(GPT_4_O_MINI)
+					.build();
+		}
+	
+		@Override
+		public String generateMeal() {
+			// Example logic for generating a meal
+			// You can enhance this logic to actually generate a meal based on the menu
+
+			String systemMessage = "You are here to help college students eat healthy at the dining hall. I will provide you with the daily menu for the specific dining hall that the student is dining in, and you should generate a balanced meal based on the foods in the dining hall." + 
+	
+			"  Avg calorie count... " + 
+		
+			" The daily dining hall menu is: ";
+
+			// Create user message (you can replace this with dynamic input later)
+			String userQuery = "Please suggest a meal for today's menu.";
+			
+			// Create the messages
+			List<ChatMessage> messages = new ArrayList<>();
+			messages.add(UserMessage.from(TextContent.from(systemMessage)));
+			messages.add(UserMessage.from(TextContent.from(userQuery)));
+			
+			// Generate the response
+			Response<AiMessage> response = model.generate(messages);
+			return response.content().text();
+		}
+	
+		@Override
+		public String chat(String userMessage) {
+			// Implement chat logic
+			UserMessage message = UserMessage.from(TextContent.from(userMessage));
+			Response<AiMessage> response = model.generate(message);
+			return response.content().text();
+		}
+	}
 }
