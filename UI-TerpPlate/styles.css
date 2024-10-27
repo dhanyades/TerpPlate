@@ -8,7 +8,7 @@
 .background {
     position: relative;
     height: 50vh; /* Covers half the viewport height */
-    background-image: url('https://nutrition.umd.edu/img/cover.jpeg'); /* Replace with your image URL */
+    background-image: url('https://www.stroke.org/-/media/Images/Healthy-Living/Healthy-Eating/Superfoods.png?h=391&w=800&sc_lang=en&hash=E1E5258C56FE42C4760282E47ABC9008'); /* Replace with your image URL */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     overflow: hidden;
@@ -26,45 +26,83 @@
     z-index: 1; /* Place it above the background but below the text */
 }
 h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
     position: relative;
     color: #ffdd00;
     font-size: 4em;
-    margin-top: 30px; /* Add margin to move the h1 down */
-    margin-left: 40px;
+    margin-top: 60px;
+    margin-left: 70px;
     z-index: 2; /* Place it above the gradient overlay */
 }
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-top: 40px; /* Add margin to move the h1 down */
+    margin-left: 70px;
+    z-index: 2; /* Place it above the gradient overlay */
+}
+
 .about-text p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #ffffff;
+    margin-top: 30px;
     margin-bottom: 20px;
     padding: 0 10px; 
     text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 70px;
 }
 
 /* Button container styling */
 .button-container {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
 }
 
 .button-container button {
     padding: 12px 20px;
     font-size: 1rem;
     color: white;
-    background-color: red; /* Bright yellow for button */
-    border: none;
-    border-radius: 5px;
+    background-color: rgb(0, 0, 0); /* Bright yellow for button */
+    border-color: gold;
+    border-radius: 3px solid #ffb700;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    align-: center;
 }
 
 .button-container button:hover {
-    background-color: #ebf800; /* Slightly darker yellow on hover */
-    transform: scale(1.05); /* Slight scale effect on hover */
+    background-color: #f80000; 
+    border-color: red;
+    transform: scale(1.05); 
+}
+
+.Bottom {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5em;
+}
+
+.Bottom p {
+    background-color: white;
+    color: black;
+}
+
+.Bottom img {
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
 }
 
