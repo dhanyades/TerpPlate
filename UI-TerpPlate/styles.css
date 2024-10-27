@@ -25,9 +25,10 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 10%,rgba(0, 0, 0, 0.8) 20%,rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 70%); 
     z-index: 1; /* Place it above the background but below the text */
 }
+
 h1 {
     position: relative;
-    color: #ffdd00;
+    color: #cf0808eb;
     font-size: 4em;
     margin-top: 60px;
     margin-left: 70px;
@@ -36,7 +37,7 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    color: #ffffff;
+    color: #ffd34f;
     font-size: 2.5em;
     margin-top: 40px; /* Add margin to move the h1 down */
     margin-left: 70px;
@@ -44,7 +45,7 @@ h2 {
 }
 
 .about-text p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     color: #ffffff;
     margin-top: 30px;
@@ -83,26 +84,62 @@ h2 {
     transform: scale(1.05); 
 }
 
-.Bottom {
-    background-color: white;
+.secondground {
+    position: relative;
     height: 50vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/64b03fd8d3754a0bbcdf473d/1689865357550-CHDG1QCMBH7L9B2C4NAB/best-foods-to-eat-before-a-test.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    overflow: hidden;
+}
+.secondground:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Dark to transparent fade */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 10%,rgba(0, 0, 0, 0.8) 20%,rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 70%); 
+    z-index: 1; /* Place it above the background but below the text */
+}
+
+
+/* Section where the input and text overlap the background */
+.Bottom {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: black;
-    font-size: 1.5em;
+    justify-content: center;
+    position: relative;
+    /*background-color: rgba(32, 24, 24, 0.808); /* Semi-transparent overlay */
+    padding: 20px;
+    height: 50vh;
+    z-index: 2; /* Ensures text is above the gradient */
+    margin-top: -10px; /* Small negative margin to ensure smooth transition */
 }
 
-.Bottom p {
+/* Input textbox styling */
+.input-textbox {
+    padding: 10px;
     background-color: white;
-    color: black;
+    border: 1px solid #ccc; 
+    border-radius: 0;
+    width: 80%; 
+    max-width: 500px;
+    font-size: 1em; 
+    font-style: italic;
+    margin-bottom: 10px;
+    z-index: 3;
 }
 
-.Bottom img {
-    width: 300px;
-    height: auto;
-    margin-top: 40px;
-    background-color: white;
-    color: black;
+/* Styling for the h3 title text */
+.Bottom h2 {
+    color: #ffd34f;
+    background: transparent;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    z-index: 2;
 }
-
