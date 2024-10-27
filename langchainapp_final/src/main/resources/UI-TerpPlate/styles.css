@@ -140,15 +140,6 @@ h2 {
     z-index: 3;
 }
 
-.thirdground {
-    position: relative;
-    height: 100px;
-    background-color: white;
-    background-size: cover;
-    background-position: center;
-
-}
-
 .response-output {
     background-color: white; /* Semi-transparent black background */
     border-radius: 8px; /* Rounded corners */
@@ -231,7 +222,7 @@ h2 {
 }
 
 .Second-Page h2{
-    margin-left: 450px;
+    margin-left: 650px;
     margin-bottom: 10px;
     margin-top: 0px;
     font-size: 2em;
@@ -294,7 +285,61 @@ h2 {
     justify-content: center; /* Center vertically */
     background-color: #000000;
 }
-
+/*Output*/
 .second-page-output {
-    color:white
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #000000; /* Ensure white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.second-page-output h3 {
+    margin: 0; /* Remove extra margin */
+    padding: 10px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: transparent; /* Ensure transparent background */
+    text-align: center;
+}
+
+#meal-generate-box {
+    width: 100%;
+    padding: 15px;
+    background-color: #000000; /* Ensure white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#second-page-output {
+    margin: 20px 30px; /* Adjust margin as needed */
+    font-size: 1.1em;
+    color: #fffefe;
+}
+
+.thirdground {
+    max-height: 300px;
+    position: relative;
+    height: 100px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+.response-output {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center; /* Center text inside the box */
 }
