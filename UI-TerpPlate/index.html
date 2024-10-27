@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+        <meta charset="UTF-8">
+		<title>TerpPlate</title>
+        <link href=" styles.css" rel="stylesheet" type="text/css">
+        <script src="script.js" defer></script>
+
+	</head>
+	<body>
+        <div class="background">
+        </div>
+        <h1>TerpPlate</h1>
+        <section class="Home-Page">
+        <!--Divider for intro text: includes heading3 and welcome text-->
+        <h2>#FeedTheTurtle</h2>
+        <div class="about-container">
+            <div class="top-section">
+                <div class = "about-text">
+                    <p>Looking for meal inspiration? TerpPlate brings the dining hall 
+                    menu to your fingertips with daily meal suggestions tailored to your preferences. 
+                    Simply type in what you’re craving—whether it’s a healthy lunch loaded with veggies or a 
+                    hearty dinner option—and let TerpPlate serve up a delicious idea. 
+                    With curated options from the University of Maryland dining halls, your next meal is just a click away!</p>
+                </div>
+            </div>
+        </div>
+        <!--End of About container-->
+         <!--Button in homepage(START)-->
+        <div class = "button-container">
+            <button class="center-button" onclick="scrollToSection()" id="bottom-section">START</button>
+        </div>
+        </section>
+
+        <!--ADD GENERATE HERE-->
+
+        <!--Section White-->
+        <div class="secondground">
+            <section class="Bottom">
+                <h2>Ask me questions about nutrition!</h2>
+                <input type="text" placeholder="Ex: How much protein is in..." class="input-textbox" id="meal-input">
+                <div class = "button-container">
+                    <button class="bottom-button" onclick="storeInput()" id="bottom-section">ENTER</button>
+                </div>
+            </section>
+        </div>
+
+        <!--Section OUTPUT-->
+        <div class="thirdground">
+            <section class="bottom-output">
+
+            </section>
+        </div>
+	</body>
+</html>
