@@ -162,7 +162,7 @@ h2 {
     border-radius: 8px; /* Rounded corners */
     padding: 20px; /* Padding around the text */
     margin-top: 20px; /* Margin to separate from other elements */
-    max-width: 600px; /* Max width of the output box */
+    max-width: 900px; /* Max width of the output box */
     color: black; /* Text color */
     font-size: larger; /* Font size */
     /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  Subtle shadow */
@@ -187,18 +187,17 @@ h2 {
 }
 
 .Second-Page h2 {
-    margin: 0 auto;  /*Centers the heading horizontally */
+    margin: 0 auto;  
     margin-top: 0px;
-    /*margin-left: 650px;*/
     margin-bottom: 10px;
     font-size: 2.5em;
     color: white;
     background-color: transparent;
-    text-align: center; /* Centers the text within the heading element */
+    text-align: center; 
 }
 
 .Second-Page h3{
-    margin: 0 auto;  /*Centers the heading horizontally */
+    margin: 0 auto;  
     color:white(0, 0, 0);
     font-size: smaller;
     display: flex;
@@ -212,13 +211,13 @@ h2 {
     background-color: #000000;
 }
 .survey-container {
-    max-width: 400px; /* Set a maximum width for the container */
-    width: 100%; /* Allow it to be responsive within the max width */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 400px; 
+    width: 100%; 
+    margin: 0 auto; 
     padding: 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: transparent; /* Gray background */
+    background-color: transparent; 
 
 
     text-align: left;
@@ -244,7 +243,7 @@ h2 {
     font-size: 1rem;
     text-align: center;
     color: white;
-    background-color: rgb(0, 0, 0); /* Bright yellow for button */
+    background-color: rgb(0, 0, 0); 
     border-color: gold;
     border-radius: 3px solid #ffb700;
     cursor: pointer;
@@ -263,8 +262,8 @@ h2 {
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    align-items: center;
+    justify-content: center; 
     background-color: #000000;
 }
 
@@ -277,58 +276,35 @@ h2 {
     padding: 20px;
     width: 80%;
     max-width: 600px;
-    background-color: #000000; /* Ensure white background */
+    background-color: #000000; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .second-page-output h3 {
-    margin: 0; /* Remove extra margin */
+    margin: 0; 
     padding: 10px;
     font-size: 2em;
     color: #ffffff;
-    background-color: transparent; /* Ensure transparent background */
+    background-color: transparent; 
     text-align: center;
 }
 
 #meal-generate-box {
     width: 100%;
     padding: 15px;
-    background-color: #000000; /* Ensure white background */
+    background-color: #000000; 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #second-page-output {
-    margin: 20px 30px; /* Adjust margin as needed */
+    margin: 20px 30px;
     font-size: 1.1em;
     color: #fffefe;
 }
 
-/*
-.bottom-output {
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    min-height: 500px;
-    margin-bottom: 50px;
-}
 
-.thirdground {
-    height: 700px;
-    width: 100%;
-    background-color: white;
-    margin-bottom: 20px;
-    display: flex;
-}
-
-.last-section {
-    display: flex;
-    margin-top: 50px; 
-}
-    */
 
 
 
@@ -339,19 +315,19 @@ h2 {
 .bottom-output {
     background: white;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
-    padding: 20px; /* Add padding to the section */
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;  
 }
 
 .response-output {
-    background-color: white; /* White background */
-    color: rgb(0, 0, 0); /* Black text */
-    max-width: 700px; /* Maximum width */
-    padding: 20px; /* Add some padding */
-    border: 1px solid #ccc; /* Optional: border for better visibility */
-    border-radius: 8px; /* Optional: rounded corners */
-    text-align: center; /* Center text inside the box */
+    background-color: white; 
+    color: rgb(0, 0, 0);
+    max-width: 700px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    text-align: center; 
 }
 
 
@@ -422,6 +398,23 @@ h2 {
     background-color: #000000;
     flex-direction: column;
 
+}
+
+.footer-container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px; 
+}
+
+
+.logo {
+    height: 55px;  
+    width: auto; 
+    margin-top: 15px;
+    margin-right: 20px; 
+    background-color: rgb(0,0,0);
+    display: inline;
 }
 
 

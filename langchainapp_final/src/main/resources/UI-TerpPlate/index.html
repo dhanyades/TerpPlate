@@ -45,19 +45,18 @@
             <div class="survey-container">
                 <form id="preferences-form" onsubmit="submitSurvey(event)">
                     <label for="calories">Calories (kcal):</label>
-                    <input type="number" placeholder="Default: 600 cals" id="calories" name="calories" required>
+                    <input type="number" placeholder="Default: 650 cals" id="calories" name="calories">
         
-                    <label for="sugar">Sugar (milligrams):</label>
-                    <input type="number" placeholder="Default: 600 mg" id="sugar" name="sugar" required>
+                    <label for="sugar">Sugar (grams):</label>
+                    <input type="number" placeholder="Default: 10 g" id="sugar" name="sugar">
         
-                    <label for="sodium">Sodium (grams):</label>
-                    <input type="number" placeholder="Default: 8 g" id="sodium" name="sodium" required>
+                    <label for="sodium">Sodium (milligrams):</label>
+                    <input type="number" placeholder="Default: 550 mg" id="sodium" name="sodium">
         
                     <label for="protein">Protein (grams):</label>
-                    <input type="number" placeholder="Default: 30 g" id="protein" name="protein" required>
+                    <input type="number" placeholder="Default: 20 g" id="protein" name="protein">
                     
                     <button type="submit">GENERATE MEAL</button>
-            
     
                 </form>
             </div>
@@ -72,12 +71,6 @@
             </div>
             
         </section>
-
-            
-
-
-
-
 
 <!--END OF OUTPUT-->
         <!--Section White-->
@@ -182,6 +175,10 @@
                 
             </div>
             </section>
+
+            <div class="footer-container">
+                <img src="turtleplate.png" alt="Logo" class="logo">
+            </div>
     
             <script>
                 facts = [
@@ -200,7 +197,64 @@
                     document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
                 }
             </script>
+
+
+
+
     
     
 	</body>
+
+
+
+     <!--Section White
+        <div class="trackground">
+            <section class="Bottom">
+                <h2>Ask me questions about nutrition!</h2>
+                <input type="text" placeholder="Ex: How much protein is in..." class="track-textbox" id="track-meal-input">
+                <div class = "button-container">
+                    <button class="track-meal" onclick="trackMeal()" id="bottom-section">ENTER</button>
+                </div>
+            </section>
+        </div>  
+
+        <section class="track-meal-output">
+            <div id="track-meal-box" class="track-meal-output">
+                <p id="track-meal-output" style="margin: 0;"></p> 
+            </div>
+        </section>
+        <script> 
+            
+
+            // Function to store input and send it to the server
+            function trackMeal() {
+                const inputField = document.getElementById('track-meal-input');
+                const inputValue = inputField.value.trim();
+
+                if (inputValue) {
+                    // Send the input value to your Spring Boot application
+                    fetch('http://localhost:8080/mealTrack', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ chat: inputValue }), // Wrap it in an object if needed
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data.message)
+
+                        document.getElementById('track-meal-box').innerText = data.model_response;
+                    })
+                    .catch(error => console.error('Error:', error));
+
+                    // Clear the input field after sending the value
+                    inputField.value = '';
+                } else {
+                    alert('Please enter a value!');
+                }
+            }
+        </script>
+    -->
+
 </html>
