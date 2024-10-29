@@ -1,9 +1,7 @@
 package com.example.langchainapp;
 
 import java.util.*;
-
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 public class SurveyController {
@@ -26,26 +24,13 @@ public class SurveyController {
         + "\nMeal Sodium Goal: " + sodium
         + "\nMeal Protein Goal: " + protein;
 
-        System.out.println(mealGoalsString);
-
-        // Process the survey data here
-        //System.out.println("Received survey data: " + surveyData);
-
         assistantImpl.setMealGoals(calories, sugar, sodium, protein);
 
         String modelResponse = assistantImpl.generateMeal();
 
-        if (modelResponse != null) {
-            System.out.println("Got model response in survey");
-        }
-
         // Return a response to the client
         Map<String, String> response = new HashMap<>();
         response.put("message", "Survey data processed successfully.");
-        // response.put("calories", calories);
-        // response.put("sugar", sugar);
-        // response.put("sodium", sodium);
-        // response.put("protein", protein);
         response.put("model_response", modelResponse);
 
         return response;

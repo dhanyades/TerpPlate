@@ -45,19 +45,18 @@
             <div class="survey-container">
                 <form id="preferences-form" onsubmit="submitSurvey(event)">
                     <label for="calories">Calories (kcal):</label>
-                    <input type="number" id="calories" name="calories" required>
+                    <input type="number" placeholder="Default: 650 cals" id="calories" name="calories">
         
                     <label for="sugar">Sugar (grams):</label>
-                    <input type="number" id="sugar" name="sugar" required>
+                    <input type="number" placeholder="Default: 10 g" id="sugar" name="sugar">
         
-                    <label for="sodium">Sodium (grams):</label>
-                    <input type="number" id="sodium" name="sodium" required>
+                    <label for="sodium">Sodium (milligrams):</label>
+                    <input type="number" placeholder="Default: 550 mg" id="sodium" name="sodium">
         
-                    <label for="protein">Protein (mg):</label>
-                    <input type="number" id="protein" name="protein" required>
+                    <label for="protein">Protein (grams):</label>
+                    <input type="number" placeholder="Default: 20 g" id="protein" name="protein">
                     
-                    <button type="submit">GENERATE</button>
-            
+                    <button type="submit">GENERATE MEAL</button>
     
                 </form>
             </div>
@@ -143,7 +142,7 @@
                     .then(data => {
                         console.log(data.message)
 
-                        document.getElementById('response-output').innerText = data.model_response;
+                        document.getElementById('response-box').innerText = data.model_response;
                     })
                     .catch(error => console.error('Error:', error));
 
@@ -156,43 +155,106 @@
         </script>
 
         <!--Section OUTPUT-->
-        <div class="thirdground">
+        
             <section class="bottom-output">
                 <div id="response-box" class="response-output">
                     <p id="response-output" style="margin: 0;"></p> <!-- Inner p to display the response -->
                 </div>
             </section>
-        </div>
 
-
-
-        <!--DHANYAAAAA Section fact-->
-        <div class="meal-container">
-            <h2>Fun Nutrition Facts</h2>
-            <h3>Generate a fun nutrition fact by clicking the button below!</h3>
-            <div class="button-container2">
-                <button onclick="displayRandomFact()">CLICK ME!</button>
-                <p id="factDisplay" style="color: white; padding-top: 20px; font-size: larger;"></p> <!-- Place to display the fact -->                
-            </div>
-            
-        </div>
-
-        <script>
-            facts = [
-                "Tomatoes are a fruit.",
-                "Apples give you more energy than coffee.",
-                "Avocados are loaded with more potassium than bananas.",
-                "Eating carrots can improve your vision at night.",
-                "Almonds are a member of the peach family.",
-                "Good nutrition can impact your mood and emotional wellness. ",
-                "Doctors and nutritionists recommend eggs as a vital part of a well-balanced diet.",
-                "One way to read a food label is to divide the number of calories by the grams of fiber."
-            ];
         
-            function displayRandomFact() {
-                randomIndex = Math.floor(Math.random() * facts.length); // Get a random index
-                document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
+        <!--DHANYAAAAA Section fact-->
+        <section class="last-section">
+            <div class="meal-container">
+                <h2>Fun Nutrition Facts</h2>
+                <h3>Generate a fun nutrition fact by clicking the button below!</h3>
+                <div class="button-container2">
+                    <button onclick="displayRandomFact()">CLICK ME!</button>
+                    <p id="factDisplay" style="color: white; padding-top: 20px; font-size: larger;"></p> <!-- Place to display the fact -->                
+                </div>
+                
+            </div>
+            </section>
+
+            <div class="footer-container">
+                <img src="turtleplate.png" alt="Logo" class="logo">
+            </div>
+    
+            <script>
+                facts = [
+                    "Tomatoes are a fruit.",
+                    "Apples give you more energy than coffee.",
+                    "Avocados are loaded with more potassium than bananas.",
+                    "Eating carrots can improve your vision at night.",
+                    "Almonds are a member of the peach family.",
+                    "Good nutrition can impact your mood and emotional wellness. ",
+                    "Doctors and nutritionists recommend eggs as a vital part of a well-balanced diet.",
+                    "One way to read a food label is to divide the number of calories by the grams of fiber."
+                ];
+            
+                function displayRandomFact() {
+                    randomIndex = Math.floor(Math.random() * facts.length); // Get a random index
+                    document.getElementById('factDisplay').textContent = facts[randomIndex]; // Display the selected fact
+                }
+            </script>
+
+
+
+
+    
+    
+	</body>
+
+
+
+     <!--Section White
+        <div class="trackground">
+            <section class="Bottom">
+                <h2>Ask me questions about nutrition!</h2>
+                <input type="text" placeholder="Ex: How much protein is in..." class="track-textbox" id="track-meal-input">
+                <div class = "button-container">
+                    <button class="track-meal" onclick="trackMeal()" id="bottom-section">ENTER</button>
+                </div>
+            </section>
+        </div>  
+
+        <section class="track-meal-output">
+            <div id="track-meal-box" class="track-meal-output">
+                <p id="track-meal-output" style="margin: 0;"></p> 
+            </div>
+        </section>
+        <script> 
+            
+
+            // Function to store input and send it to the server
+            function trackMeal() {
+                const inputField = document.getElementById('track-meal-input');
+                const inputValue = inputField.value.trim();
+
+                if (inputValue) {
+                    // Send the input value to your Spring Boot application
+                    fetch('http://localhost:8080/mealTrack', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ chat: inputValue }), // Wrap it in an object if needed
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data.message)
+
+                        document.getElementById('track-meal-box').innerText = data.model_response;
+                    })
+                    .catch(error => console.error('Error:', error));
+
+                    // Clear the input field after sending the value
+                    inputField.value = '';
+                } else {
+                    alert('Please enter a value!');
+                }
             }
         </script>
-	</body>
+    -->
+
 </html>

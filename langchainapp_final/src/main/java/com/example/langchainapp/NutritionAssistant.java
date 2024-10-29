@@ -28,9 +28,9 @@ import dev.langchain4j.service.SystemMessage;
 public interface NutritionAssistant {
 	String loadMenu();
 
-	//UserMessage getMealGoals(String mealGoals);
-
 	String chat(String userMessage);
 
 	public String generateMeal();
+
+	public String trackMeal(String userMessage);
 }
